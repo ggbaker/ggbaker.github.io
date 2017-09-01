@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gary G Baker on Gary G Baker</title>
+    <link>https://ggbaker.github.com/</link>
+    <description>Recent content in Gary G Baker on Gary G Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Gary Baker</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to my new website</title>
+      <link>https://ggbaker.github.com/post/getting-started/</link>
+      <pubDate>Tue, 29 Aug 2017 19:00:00 +0000</pubDate>
+      
+      <guid>https://ggbaker.github.com/post/getting-started/</guid>
+      <description>&lt;p&gt;Welcome to my new and improved website. For those of you who&amp;rsquo;ve been here before, everything should be more or less as before but with a new coat of paint.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Colophon</title>
+      <link>https://ggbaker.github.com/colophon/</link>
+      <pubDate>Fri, 29 Apr 2016 12:11:59 +0200</pubDate>
+      
+      <guid>https://ggbaker.github.com/colophon/</guid>
+      <description>
+
+&lt;p&gt;This site was produced using the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; static site generator with the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34;&gt;Academic&lt;/a&gt; theme by &lt;a href=&#34;https://georgecushen.com/&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hosting is provided by &lt;a href=&#34;https://pages.github.com&#34;&gt;Github Pages&lt;/a&gt;.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;image-attribution&#34;&gt;Image Attribution&lt;/h2&gt;
+
+&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://what-if.xkcd.com/111/&#34;&gt;&lt;img style=&#34;margin:15px;&#34; align=&#34;left&#34; src=&#34;https://ggbaker.github.com/img/summon.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Copyright &amp;copy; Randall Munroe. Used according to a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc/2.5/&#34;&gt;CC BY-NC 2.5&lt;/a&gt; License
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Economics 101</title>
+      <link>https://ggbaker.github.com/teaching/f2017econ101/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ggbaker.github.com/teaching/f2017econ101/</guid>
+      <description>&lt;style type=&#34;text/css&#34;&gt;
+#sidebar {
+background: #cccccc;
+font-family: monospace
+}
+&lt;/style&gt;
+
+&lt;p&gt;&lt;div class=&#34;row&#34;&gt;&lt;br /&gt;
+&lt;div class=&#34;col-xs-12 col-md-5&#34; id=&#34;sidebar&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Professor:&lt;/strong&gt; Elizabeth Kelly&lt;br /&gt;
+&lt;strong&gt;Lecture:&lt;/strong&gt; TuesThurs 8:30-9:40AM&lt;br /&gt;
+&lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;Course Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TA:&lt;/strong&gt; Gary Baker&lt;br /&gt;
+&lt;strong&gt;Office:&lt;/strong&gt; Soc Sci 6470&lt;br /&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; MonWed 11AM-12PM, or by appointment&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discussion Sections&lt;/strong&gt;&lt;br /&gt;
+(303)Fri 1:20-2:10PM &amp;ndash; Van Hise 386&lt;br /&gt;
+(302)Fri 2:25-3:15PM &amp;ndash; Ingraham 215&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exams&lt;/strong&gt;&lt;br /&gt;
+Midterm 1 - Thurs, 12 Oct (in class)&lt;br /&gt;
+Midterm 2 - Thurs, 16 Nov (in class)&lt;br /&gt;
+Final - Tues, 19 Dec (12:25-2:25 PM)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Homework&lt;/strong&gt;&lt;br /&gt;
+Homework 1 (Due Tues, 26 Sept)&lt;br /&gt;
+Homework 2 (Due Tues, 10 Oct)&lt;br /&gt;
+Homework 3 (Due Tues, 31 Oct)&lt;br /&gt;
+Homework 4 (Due Tues, 14 Nov)&lt;br /&gt;
+Homework 5 (Due Tues, 12 Dec)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discussion Handouts&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;col-xs-12 col-md-7&#34;&gt;&lt;h2&gt;Updates&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to my Econ 101 page for Fall 2017. Here I will post various updates throughout the semester for my students, as well as provide links to the weekly handouts as they become available. More detailed information on the course can be found on Professor Kelly&amp;rsquo;s &lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;webpage&lt;/a&gt;.&lt;br /&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
