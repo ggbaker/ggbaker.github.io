@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Gary G Baker</title>
-    <link>https://ggbaker.github.com/post/</link>
+    <link>https://www.garygbaker.com/post/</link>
     <description>Recent content in Posts on Gary G Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Welcome to my new website</title>
-      <link>https://ggbaker.github.com/post/getting-started/</link>
+      <link>https://www.garygbaker.com/post/getting-started/</link>
       <pubDate>Tue, 29 Aug 2017 19:00:00 +0000</pubDate>
       
-      <guid>https://ggbaker.github.com/post/getting-started/</guid>
+      <guid>https://www.garygbaker.com/post/getting-started/</guid>
       <description>&lt;p&gt;Welcome to my new and improved website. For those of you who&amp;rsquo;ve been here before, everything should be more or less as before but with a new coat of paint.&lt;/p&gt;
 </description>
     </item>

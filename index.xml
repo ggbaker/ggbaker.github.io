@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gary G Baker on Gary G Baker</title>
-    <link>https://ggbaker.github.com/</link>
+    <link>https://www.garygbaker.com/</link>
     <description>Recent content in Gary G Baker on Gary G Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,20 +12,20 @@
     
     <item>
       <title>Welcome to my new website</title>
-      <link>https://ggbaker.github.com/post/getting-started/</link>
+      <link>https://www.garygbaker.com/post/getting-started/</link>
       <pubDate>Tue, 29 Aug 2017 19:00:00 +0000</pubDate>
       
-      <guid>https://ggbaker.github.com/post/getting-started/</guid>
+      <guid>https://www.garygbaker.com/post/getting-started/</guid>
       <description>&lt;p&gt;Welcome to my new and improved website. For those of you who&amp;rsquo;ve been here before, everything should be more or less as before but with a new coat of paint.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Colophon</title>
-      <link>https://ggbaker.github.com/colophon/</link>
+      <link>https://www.garygbaker.com/colophon/</link>
       <pubDate>Fri, 29 Apr 2016 12:11:59 +0200</pubDate>
       
-      <guid>https://ggbaker.github.com/colophon/</guid>
+      <guid>https://www.garygbaker.com/colophon/</guid>
       <description>
 
 &lt;p&gt;This site was produced using the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; static site generator with the &lt;a href=&#34;https://github.com/gcushen/hugo-academic&#34;&gt;Academic&lt;/a&gt; theme by &lt;a href=&#34;https://georgecushen.com/&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
@@ -36,13 +36,13 @@
 &lt;h2 id=&#34;image-attribution&#34;&gt;Image Attribution&lt;/h2&gt;
 
 &lt;p&gt;&lt;div class=&#34;row&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://what-if.xkcd.com/111/&#34;&gt;&lt;img style=&#34;margin:15px;&#34; align=&#34;left&#34; src=&#34;https://ggbaker.github.com/img/summon.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://what-if.xkcd.com/111/&#34;&gt;&lt;img style=&#34;margin:15px;&#34; align=&#34;left&#34; src=&#34;https://www.garygbaker.com/img/summon.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Copyright &amp;copy; Randall Munroe. Used according to a &lt;a href=&#34;https://creativecommons.org/licenses/by-nc/2.5/&#34;&gt;CC BY-NC 2.5&lt;/a&gt; License
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;div class=&#34;row&#34;&gt;
-&lt;p&gt;&lt;img style=&#34;margin:15px;&#34; align=&#34;left&#34; src=&#34;https://ggbaker.github.com/img/iseffects.png&#34;/&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;margin:15px;&#34; align=&#34;left&#34; src=&#34;https://www.garygbaker.com/img/iseffects.png&#34;/&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;Image created by me for the third problem set for Econ 101 in Spring 2015 taught by &lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;Professor Elizabeth Kelly&lt;/a&gt;
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;&lt;/p&gt;
@@ -53,10 +53,10 @@
     
     <item>
       <title>Economics 101</title>
-      <link>https://ggbaker.github.com/teaching/f2017econ101/</link>
+      <link>https://www.garygbaker.com/teaching/f2017econ101/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ggbaker.github.com/teaching/f2017econ101/</guid>
+      <guid>https://www.garygbaker.com/teaching/f2017econ101/</guid>
       <description>&lt;style type=&#34;text/css&#34;&gt;
 #sidebar {
 background: #cccccc;
