@@ -8,7 +8,60 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Gary Baker</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.garygbaker.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.garygbaker.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.garygbaker.com/home/about/</guid>
+      <description>About I am currently a fifth-year PhD student and teaching assistant in the Department of Economics at the University of Wisconsin-Madison. I am a theorist interested in information economics.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.garygbaker.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.garygbaker.com/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://www.garygbaker.com/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.garygbaker.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://www.garygbaker.com/home/courses/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.garygbaker.com/home/courses/</guid>
+      <description>I am currently the Business Learning Center TA assigned to Professor Gwyn Pauley&amp;rsquo;s Economics 101 Course.
+In the past, I&amp;rsquo;ve been a TA for the following courses:
+Economics 711 / 713 - Economic Theory (graduate level)
+Economics 102 - Principles of Macroeconomics (head TA)
+Economics 101 - Principles of Microeconomics (head TA)
+
+Past course pages and materials can be found here</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://www.garygbaker.com/home/research/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.garygbaker.com/home/research/</guid>
+      <description>Coming soon.</description>
+    </item>
     
   </channel>
 </rss>

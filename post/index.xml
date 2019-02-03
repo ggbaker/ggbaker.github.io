@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Gary Baker</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.garygbaker.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Welcome to my new website</title>
@@ -16,8 +18,7 @@
       <pubDate>Tue, 29 Aug 2017 19:00:00 +0000</pubDate>
       
       <guid>https://www.garygbaker.com/post/getting-started/</guid>
-      <description>&lt;p&gt;Welcome to my new and improved website. For those of you who&amp;rsquo;ve been here before, everything should be more or less as before but with a new coat of paint.&lt;/p&gt;
-</description>
+      <description>Welcome to my new and improved website. For those of you who&amp;rsquo;ve been here before, everything should be more or less as before but with a new coat of paint.</description>
     </item>
     
   </channel>
