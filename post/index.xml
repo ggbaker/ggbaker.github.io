@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Gary G Baker</title>
+    <title>Posts | Gary Baker</title>
     <link>https://www.garygbaker.com/post/</link>
-    <description>Recent content in Posts on Gary G Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Gary Baker</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.garygbaker.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Welcome to my new website</title>
-      <link>https://www.garygbaker.com/post/getting-started/</link>
-      <pubDate>Tue, 29 Aug 2017 19:00:00 +0000</pubDate>
-      
-      <guid>https://www.garygbaker.com/post/getting-started/</guid>
-      <description>Welcome to my new and improved website. For those of you who&amp;rsquo;ve been here before, everything should be more or less as before but with a new coat of paint.</description>
-    </item>
+      <atom:link href="https://www.garygbaker.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gary Baker</copyright>
+    <image>
+      <url>https://www.garygbaker.com/img/icon-32.png</url>
+      <title>Posts</title>
+      <link>https://www.garygbaker.com/post/</link>
+    </image>
     
   </channel>
 </rss>

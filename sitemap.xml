@@ -1,101 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/post/getting-started/</loc>
-      <lastmod>2017-08-29T19:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/post/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/teaching/past/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/colophon/</loc>
-      <lastmod>2016-04-29T12:11:59+02:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/teaching/</loc>
+    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/teaching/s2018econ101/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/teaching/f2017econ101/</loc>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/teaching/f2017econ101/</loc>
+    <lastmod>2017-09-03T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/teaching/s2018econ101/</loc>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/authors/admin/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/authors/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/teaching/past/</loc>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/categories/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/colophon/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/post/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://www.garygbaker.com/teaching/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://www.garygbaker.com/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/tags/</loc>
+  </url>
   
 </urlset>

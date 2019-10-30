@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Gary G Baker</title>
+    <title>Categories | Gary Baker</title>
     <link>https://www.garygbaker.com/categories/</link>
-    <description>Recent content in Categories on Gary G Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Gary Baker</copyright>
-    
-	<atom:link href="https://www.garygbaker.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.garygbaker.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Gary Baker</copyright>
+    <image>
+      <url>https://www.garygbaker.com/img/icon-32.png</url>
+      <title>Categories</title>
+      <link>https://www.garygbaker.com/categories/</link>
+    </image>
     
   </channel>
 </rss>
