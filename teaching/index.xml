@@ -5,7 +5,7 @@
     <link>https://www.garygbaker.com/teaching/</link>
       <atom:link href="https://www.garygbaker.com/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teachings</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright><lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.garygbaker.com/img/icon-32.png</url>
       <title>Teachings</title>
@@ -13,9 +13,27 @@
     </image>
     
     <item>
+      <title>Past Course Materials</title>
+      <link>https://www.garygbaker.com/teaching/past/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.garygbaker.com/teaching/past/</guid>
+      <description>
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.garygbaker.com/teaching/s2018econ101/&#34;&gt;Spring 2018 - Economics 101 - Principles of Microeconomics&lt;/a&gt; (Head TA)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.garygbaker.com/teaching/f2017econ101/&#34;&gt;Fall 2017 - Economics 101 - Principles of Microeconomics&lt;/a&gt; (Head TA)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/garygbaker/fall-2015---econ-102&#34;&gt;Fall 2015 - Economics 102 - Principles of Macroeconomics &lt;/a&gt; (Head TA) &lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/garygbaker/spring-2015---econ-101&#34;&gt;Spring 2015 - Economics 101 - Principles of Microeconomics &lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/garygbaker/fall-2014---econ-101&#34;&gt;Fall 2014 - Economics 101 - Principles of Macroeconomics &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</description>
+    </item>
+    
+    <item>
       <title>Economics 101</title>
       <link>https://www.garygbaker.com/teaching/s2018econ101/</link>
-      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       <guid>https://www.garygbaker.com/teaching/s2018econ101/</guid>
       <description>&lt;div class=&#34;row&#34;&gt;
 &lt;style type=&#34;text/css&#34;&gt;
@@ -25,40 +43,40 @@
  }
 &lt;/style&gt;
 &lt;div class=&#34;col-xs-12 col-md-5&#34; id=&#34;sidebar&#34;&gt;
-    &lt;p&gt;&lt;strong&gt;Professor:&lt;/strong&gt; Elizabeth Kelly
-&lt;strong&gt;Lecture:&lt;/strong&gt; TuesThurs 1:00 - 2:15 PM
-&lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;Course Page&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;TA:&lt;/strong&gt; Gary Baker
-&lt;strong&gt;Office:&lt;/strong&gt; Soc Sci 6470
-&lt;strong&gt;Office Hours:&lt;/strong&gt; Mon 11AM-12PM, Wed 2-3PM, or by appointment&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Discussion Sections&lt;/strong&gt;
-(315)Thu 3:30-4:20PM - Sterling 2319
-(303)Fri 1:20-2:10PM - Van Hise 386&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Exams&lt;/strong&gt;
-Midterm 1 - Tues, 27 Feb (in class)
-Midterm 2 - Tues, 10 Apr (in class)
-Final - Sun, 6 May (7:45 - 9:45 AM)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Homework&lt;/strong&gt;
-Homework 1 (Due Thurs,  8 Feb)
-Homework 2 (Due Thurs, 22 Feb)
-Homework 3 (Due Thurs, 15 Mar)
-Homework 4 (Due Thurs, 5 Apr)
-Homework 5 (Due Thurs, 3 May)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Discussion Handouts&lt;/strong&gt;
-&lt;a href=&#34;https://www.dropbox.com/s/qbemvf2igxmb01u/handout1.pdf?dl=0&#34;&gt;Handout 1&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/mcp4b9jlt4qmn9c/handout1Solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/bxv8c7mekxu4tia/handout2.pdf?dl=0&#34;&gt;Handout 2&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/fhlmje1at46ht77/handout2-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/b98fk6bmp93jeuh/handout3.pdf?dl=0&#34;&gt;Handout 3&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/vlm7u74bpu8hh4b/handout3-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/bvmht9jt99070g3/handout4.pdf?dl=0&#34;&gt;Handout 4&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/eeumha1fg5waifh/handout4-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/ce866baq233pua5/handout5.pdf?dl=0&#34;&gt;Handout 5&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/y1ttydsp59avm6w/handout5-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/085ie5vm3jioh91/handout6.pdf?dl=0&#34;&gt;Handout 6&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/101b425tb9vv3ft/handout6-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/wn6w7nsrexd9su2/handout7.pdf?dl=0&#34;&gt;Handout 7&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/ev0i1dmklqhd7mx/handout7-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/wpjnbz9ug2kg2lm/handout8.pdf?dl=0&#34;&gt;Handout 8&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/xfnadmtz7ohsj10/handout8-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/qk1iinglwqshuk5/handout9.pdf?dl=0&#34;&gt;Handout 9&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/az93w7zkha0m157/handout9-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/x4cmycn3edbqfbd/handout10.pdf?dl=0&#34;&gt;Handout 10&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/0tf577a5lfhz8mi/handout10-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/46ri40q0wlb8mnf/handout11.pdf?dl=0&#34;&gt;Handout 11&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/5ayo5zzfle7qb47/handout11-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/r42hqcywjzrvvug/handout12.pdf?dl=0&#34;&gt;Handout 12&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/8sfdcgxwjbq0zz7/handout12-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/nss302hus4twjt2/handout13.pdf?dl=0&#34;&gt;Handout 13&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/4de81i7i5fdpznj/handout13-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/oupwpb9r3i38zco/handout14.pdf?dl=0&#34;&gt;Handout 14&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/27kad8n28fdnwy4/handout14-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Professor:&lt;/strong&gt; Elizabeth Kelly&lt;br&gt;
+&lt;strong&gt;Lecture:&lt;/strong&gt; TuesThurs 1:00 - 2:15 PM&lt;br&gt;
+&lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;Course Page&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TA:&lt;/strong&gt; Gary Baker&lt;br&gt;
+&lt;strong&gt;Office:&lt;/strong&gt; Soc Sci 6470&lt;br&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; Mon 11AM-12PM, Wed 2-3PM, or by appointment&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Discussion Sections&lt;/strong&gt;&lt;br&gt;
+(315)Thu 3:30-4:20PM - Sterling 2319&lt;br&gt;
+(303)Fri 1:20-2:10PM - Van Hise 386&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exams&lt;/strong&gt;&lt;br&gt;
+Midterm 1 - Tues, 27 Feb (in class)&lt;br&gt;
+Midterm 2 - Tues, 10 Apr (in class)&lt;br&gt;
+Final - Sun, 6 May (7:45 - 9:45 AM)&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Homework&lt;/strong&gt;&lt;br&gt;
+Homework 1 (Due Thurs,  8 Feb)&lt;br&gt;
+Homework 2 (Due Thurs, 22 Feb)&lt;br&gt;
+Homework 3 (Due Thurs, 15 Mar)&lt;br&gt;
+Homework 4 (Due Thurs, 5 Apr)&lt;br&gt;
+Homework 5 (Due Thurs, 3 May)&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Discussion Handouts&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/qbemvf2igxmb01u/handout1.pdf?dl=0&#34;&gt;Handout 1&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/mcp4b9jlt4qmn9c/handout1Solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/bxv8c7mekxu4tia/handout2.pdf?dl=0&#34;&gt;Handout 2&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/fhlmje1at46ht77/handout2-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/b98fk6bmp93jeuh/handout3.pdf?dl=0&#34;&gt;Handout 3&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/vlm7u74bpu8hh4b/handout3-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/bvmht9jt99070g3/handout4.pdf?dl=0&#34;&gt;Handout 4&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/eeumha1fg5waifh/handout4-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/ce866baq233pua5/handout5.pdf?dl=0&#34;&gt;Handout 5&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/y1ttydsp59avm6w/handout5-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/085ie5vm3jioh91/handout6.pdf?dl=0&#34;&gt;Handout 6&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/101b425tb9vv3ft/handout6-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/wn6w7nsrexd9su2/handout7.pdf?dl=0&#34;&gt;Handout 7&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/ev0i1dmklqhd7mx/handout7-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/wpjnbz9ug2kg2lm/handout8.pdf?dl=0&#34;&gt;Handout 8&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/xfnadmtz7ohsj10/handout8-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/qk1iinglwqshuk5/handout9.pdf?dl=0&#34;&gt;Handout 9&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/az93w7zkha0m157/handout9-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/x4cmycn3edbqfbd/handout10.pdf?dl=0&#34;&gt;Handout 10&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/0tf577a5lfhz8mi/handout10-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/46ri40q0wlb8mnf/handout11.pdf?dl=0&#34;&gt;Handout 11&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/5ayo5zzfle7qb47/handout11-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/r42hqcywjzrvvug/handout12.pdf?dl=0&#34;&gt;Handout 12&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/8sfdcgxwjbq0zz7/handout12-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/nss302hus4twjt2/handout13.pdf?dl=0&#34;&gt;Handout 13&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/4de81i7i5fdpznj/handout13-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/oupwpb9r3i38zco/handout14.pdf?dl=0&#34;&gt;Handout 14&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/27kad8n28fdnwy4/handout14-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;col-xs-12 col-md-7&#34;&gt;
     &lt;p&gt;Welcome to my Econ 101 page for Spring 2018. Here I will post various updates throughout the semester for my students, as well as provide links to the weekly handouts as they become available. More detailed information on the course can be found on Professor Kelly&amp;rsquo;s &lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;webpage&lt;/a&gt;.&lt;/p&gt;
@@ -77,7 +95,7 @@ Homework 5 (Due Thurs, 3 May)&lt;/p&gt;
     <item>
       <title>Economics 101</title>
       <link>https://www.garygbaker.com/teaching/f2017econ101/</link>
-      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://www.garygbaker.com/teaching/f2017econ101/</guid>
       <description>&lt;div class=&#34;row&#34;&gt;
 &lt;style type=&#34;text/css&#34;&gt;
@@ -87,43 +105,43 @@ Homework 5 (Due Thurs, 3 May)&lt;/p&gt;
  }
 &lt;/style&gt;
 &lt;div class=&#34;col-xs-12 col-md-5&#34; id=&#34;sidebar&#34;&gt;
-    &lt;p&gt;&lt;strong&gt;Professor:&lt;/strong&gt; Elizabeth Kelly
-&lt;strong&gt;Lecture:&lt;/strong&gt; TuesThurs 8:30-9:40AM
-&lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;Course Page&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;TA:&lt;/strong&gt; Gary Baker
-&lt;strong&gt;Office:&lt;/strong&gt; Soc Sci 6470
-&lt;strong&gt;Office Hours:&lt;/strong&gt; Mon/Fri 11AM-12PM, or by appointment&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Discussion Sections&lt;/strong&gt;
-(315)Thu 3:30-4:20PM - Sterling 2319
-(303)Fri 1:20-2:10PM - Van Hise 386&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Exams&lt;/strong&gt;
-Midterm 1 - Thurs, 12 Oct (in class)
-Midterm 2 - Thurs, 16 Nov (in class)
-Final - Tues, 19 Dec (12:25-2:25 PM)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Homework&lt;/strong&gt;
-Homework 1 (Due Tues,  3 Oct)
-Homework 2 (Due Tues, 10 Oct)
-Homework 3 (Due Tues, 31 Oct)
-Homework 4 (Due Tues, 14 Nov)
-Homework 5 (Due Tues, 12 Dec)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Discussion Handouts&lt;/strong&gt;
-&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoNnJ0YXEyMjR4Z2s&#34;&gt;Handout 1&lt;/a&gt; (&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoUTlVSUFmd3V0bFE&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMobWt3dXZhZDA1YnM&#34;&gt;Handout 2&lt;/a&gt; (&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoaU5MSURDUzFJTGs&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoakpFaEM4ZThfd3M&#34;&gt;Handout 3&lt;/a&gt; (&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoWEtuaHhIT3QzMG8&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/kdh7ml5w2ms0eik/handout4.pdf?dl=0&#34;&gt;Handout 4&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/fgfxjc98y7d4xhk/handout4-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/u3cjgxchbmbj85w/handout5.pdf?dl=0&#34;&gt;Handout 5&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/p4dnlxqgqnirib1/handout5-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/9mghegqj9byrs92/handout6.pdf?dl=0&#34;&gt;Handout 6&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/g0o9sdrurqokfja/Handout6-Solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/z72hv4fuexuvhhn/handout7.pdf?dl=0&#34;&gt;Handout 7&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/ezjl9eyz3zhu018/Handout7-Solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/zawfm8qwx6x1y50/handout8.pdf?dl=0&#34;&gt;Handout 8&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/sf7bixcukco2rhc/handout8-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/gqh1wgwki2ssv04/handout9.pdf?dl=0&#34;&gt;Handout 9&lt;/a&gt;  (&lt;a href=&#34;https://www.dropbox.com/s/ack3wotxmcvobt2/handout9-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/42q9djj34ot905n/handout10.pdf?dl=0&#34;&gt;Handout 10&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/zktwo2qkn3eiuwy/handout10-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/fxmv1c06zqk3xcc/handout11.pdf?dl=0&#34;&gt;Handout 11&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/47zzzkhjrwvn14n/handout11-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)
-&lt;a href=&#34;https://www.dropbox.com/s/ptxgreyd68pt63c/handout12.pdf?dl=0&#34;&gt;Handout 12&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/z46q46pg724wtps/handout12-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Professor:&lt;/strong&gt; Elizabeth Kelly&lt;br&gt;
+&lt;strong&gt;Lecture:&lt;/strong&gt; TuesThurs 8:30-9:40AM&lt;br&gt;
+&lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;Course Page&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TA:&lt;/strong&gt; Gary Baker&lt;br&gt;
+&lt;strong&gt;Office:&lt;/strong&gt; Soc Sci 6470&lt;br&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; Mon/Fri 11AM-12PM, or by appointment&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Discussion Sections&lt;/strong&gt;&lt;br&gt;
+(315)Thu 3:30-4:20PM - Sterling 2319&lt;br&gt;
+(303)Fri 1:20-2:10PM - Van Hise 386&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exams&lt;/strong&gt;&lt;br&gt;
+Midterm 1 - Thurs, 12 Oct (in class)&lt;br&gt;
+Midterm 2 - Thurs, 16 Nov (in class)&lt;br&gt;
+Final - Tues, 19 Dec (12:25-2:25 PM)&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Homework&lt;/strong&gt;&lt;br&gt;
+Homework 1 (Due Tues,  3 Oct)&lt;br&gt;
+Homework 2 (Due Tues, 10 Oct)&lt;br&gt;
+Homework 3 (Due Tues, 31 Oct)&lt;br&gt;
+Homework 4 (Due Tues, 14 Nov)&lt;br&gt;
+Homework 5 (Due Tues, 12 Dec)&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Discussion Handouts&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoNnJ0YXEyMjR4Z2s&#34;&gt;Handout 1&lt;/a&gt; (&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoUTlVSUFmd3V0bFE&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMobWt3dXZhZDA1YnM&#34;&gt;Handout 2&lt;/a&gt; (&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoaU5MSURDUzFJTGs&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoakpFaEM4ZThfd3M&#34;&gt;Handout 3&lt;/a&gt; (&lt;a href=&#34;https://drive.google.com/open?id=0B0B9_804AJMoWEtuaHhIT3QzMG8&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/kdh7ml5w2ms0eik/handout4.pdf?dl=0&#34;&gt;Handout 4&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/fgfxjc98y7d4xhk/handout4-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/u3cjgxchbmbj85w/handout5.pdf?dl=0&#34;&gt;Handout 5&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/p4dnlxqgqnirib1/handout5-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/9mghegqj9byrs92/handout6.pdf?dl=0&#34;&gt;Handout 6&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/g0o9sdrurqokfja/Handout6-Solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/z72hv4fuexuvhhn/handout7.pdf?dl=0&#34;&gt;Handout 7&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/ezjl9eyz3zhu018/Handout7-Solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/zawfm8qwx6x1y50/handout8.pdf?dl=0&#34;&gt;Handout 8&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/sf7bixcukco2rhc/handout8-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/gqh1wgwki2ssv04/handout9.pdf?dl=0&#34;&gt;Handout 9&lt;/a&gt;  (&lt;a href=&#34;https://www.dropbox.com/s/ack3wotxmcvobt2/handout9-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/42q9djj34ot905n/handout10.pdf?dl=0&#34;&gt;Handout 10&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/zktwo2qkn3eiuwy/handout10-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/fxmv1c06zqk3xcc/handout11.pdf?dl=0&#34;&gt;Handout 11&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/47zzzkhjrwvn14n/handout11-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;
+&lt;a href=&#34;https://www.dropbox.com/s/ptxgreyd68pt63c/handout12.pdf?dl=0&#34;&gt;Handout 12&lt;/a&gt; (&lt;a href=&#34;https://www.dropbox.com/s/z46q46pg724wtps/handout12-solutions.pdf?dl=0&#34;&gt;Solutions&lt;/a&gt;)&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;col-xs-12 col-md-7&#34;&gt;
     &lt;p&gt;Welcome to my Econ 101 page for Fall 2017. Here I will post various updates throughout the semester for my students, as well as provide links to the weekly handouts as they become available. More detailed information on the course can be found on Professor Kelly&amp;rsquo;s &lt;a href=&#34;http://www.ssc.wisc.edu/~ekelly/econ101/&#34;&gt;webpage&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Updates&lt;/h2&gt;
-*12 December* - Handout 12 posted. Good luck on the final exam, and have a good break!
+&lt;p&gt;&lt;em&gt;12 December&lt;/em&gt; - Handout 12 posted. Good luck on the final exam, and have a good break!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;5 December&lt;/em&gt; - Handout 11 posted.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;19 November&lt;/em&gt; - Handouts 9 and 10 posted. Exam grades should be posted to Canvas some time this week. Have a good Thanksgiving break!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;6 November&lt;/em&gt; - Handout 8 posted. HW 3 has been graded and can be collected from me during office hours or section.&lt;/p&gt;
@@ -136,24 +154,6 @@ Homework 5 (Due Tues, 12 Dec)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;10 September&lt;/em&gt; - I&amp;rsquo;ve uploaded Handout 1 and its solutions. If some of the topics covered in section this week seem a bit unclear, feel free to email me or attend office hours, but also to solve some of the exercises not covered on the handout. Mathematical fluency will come with practice.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Past Course Materials</title>
-      <link>https://www.garygbaker.com/teaching/past/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.garygbaker.com/teaching/past/</guid>
-      <description>
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.garygbaker.com/teaching/s2018econ101/&#34;&gt;Spring 2018 - Economics 101 - Principles of Microeconomics&lt;/a&gt; (Head TA)&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.garygbaker.com/teaching/f2017econ101/&#34;&gt;Fall 2017 - Economics 101 - Principles of Microeconomics&lt;/a&gt; (Head TA)&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/garygbaker/fall-2015---econ-102&#34;&gt;Fall 2015 - Economics 102 - Principles of Macroeconomics &lt;/a&gt; (Head TA) &lt;br&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/garygbaker/spring-2015---econ-101&#34;&gt;Spring 2015 - Economics 101 - Principles of Microeconomics &lt;/a&gt;&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/garygbaker/fall-2014---econ-101&#34;&gt;Fall 2014 - Economics 101 - Principles of Macroeconomics &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
 </description>
     </item>
     
