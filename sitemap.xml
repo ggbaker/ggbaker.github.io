@@ -3,22 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.garygbaker.com/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <loc>https://www.garygbaker.com/teaching/s2018econ101/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.garygbaker.com/teaching/past/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
+    <loc>https://www.garygbaker.com/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.garygbaker.com/teaching/</loc>
-    <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.garygbaker.com/teaching/s2018econ101/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -41,6 +36,10 @@
   
   <url>
     <loc>https://www.garygbaker.com/colophon/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/teaching/past/</loc>
   </url>
   
   <url>
