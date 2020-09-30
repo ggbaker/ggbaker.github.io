@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision theory | Gary Baker</title>
+    <link>https://www.garygbaker.com/tags/decision-theory/</link>
+      <atom:link href="https://www.garygbaker.com/tags/decision-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Decision theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright><lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.garygbaker.com/img/icon-32.png</url>
+      <title>Decision theory</title>
+      <link>https://www.garygbaker.com/tags/decision-theory/</link>
+    </image>
+    
+    <item>
+      <title>In progress research</title>
+      <link>https://www.garygbaker.com/publication/in-progress/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.garygbaker.com/publication/in-progress/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Bayesian foundations for an asymptotically optimal experiment design,&lt;/em&gt;
+with Sam Engle&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimal fast experimentation,&lt;/em&gt; with Lones Smith&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bargaining with multiple buyers: evidence from eBay&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
