@@ -44,7 +44,7 @@ Link As&amp;rdquo;).&lt;/p&gt;
 &lt;p&gt;Prior to acting, she may purchase information about the state and update her prior based on that information. As standard, define an information as a &lt;em&gt;Blackwell experiment&lt;/em&gt;, that is, a collection of state-dependent distributions, $F(r\ |\ \theta)$ over some realization space, R:&lt;/p&gt;
 &lt;p&gt;$$
 \mathcal{E} \equiv
-{R, \langle F(\cdot\ |\ \theta)\rangle_{\theta\in\Theta}}
+\{R, \langle F(\cdot\ |\ \theta)\rangle_{\theta\in\Theta}\}
 $$&lt;/p&gt;
 &lt;p&gt;(In a fully formal treatment, the definition would also include a σ-algebra. For the purposes of this paper, we can ignore such measure-theoretic complications).&lt;/p&gt;
 &lt;p&gt;After observing a realization from an information source, the decision maker can update with Bayes rule:&lt;/p&gt;
