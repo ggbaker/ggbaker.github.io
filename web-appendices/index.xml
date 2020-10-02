@@ -32,37 +32,71 @@ Link As&amp;rdquo;).&lt;/p&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; plt      &lt;span style=&#34;color:#75715e&#34;&gt;# Plotting&lt;/span&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; tabulate &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; tabulate        &lt;span style=&#34;color:#75715e&#34;&gt;# For nicer printing of some data&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;model&#34;&gt;Model&lt;/h1&gt;
-&lt;p&gt;A decision maker must take one of finitely many actions $a\in A$ facing an uncertain state of the world, $\theta$, that is one of finitely many possible states. She has a state-dependent payoff function, $u(a,\theta)$ and chooses her action to maximize expected payoff. Her prior is given by $p\in\Delta\Theta$.&lt;/p&gt;
-&lt;p&gt;Prior to acting, she may purchase information about the state and update her prior based on that information. As standard, define an information as a &lt;em&gt;Blackwell experiment&lt;/em&gt;, that is, a collection of state-dependent distributions, $F(r\ |\ \theta)$ over some realization space, R:&lt;/p&gt;
+&lt;p&gt;A decision maker must take one of finitely many actions $a\in A$ facing
+an uncertain state of the world, $\theta$, that is one of finitely many
+possible states. She has a state-dependent payoff function,
+$u(a,\theta)$ and chooses her action to maximize expected payoff. Her
+prior is given by $p\in\Delta\Theta$.&lt;/p&gt;
+&lt;p&gt;Prior to acting, she may purchase information about the state and update
+her prior based on that information. As standard, define an information
+as a &lt;em&gt;Blackwell experiment&lt;/em&gt;, that is, a collection of state-dependent
+distributions, $F(r\ |\ \theta)$ over some realization space, R:&lt;/p&gt;
 &lt;p&gt;$$
 \mathcal{E} \equiv
 \{R, \langle F(\cdot\ |\ \theta)\rangle_{\theta\in\Theta}\}
 $$&lt;/p&gt;
-&lt;p&gt;(In a fully formal treatment, the definition would also include a σ-algebra. For the purposes of this paper, we can ignore such measure-theoretic complications).&lt;/p&gt;
-&lt;p&gt;After observing a realization from an information source, the decision maker can update with Bayes rule:&lt;/p&gt;
+&lt;p&gt;(In a fully formal treatment, the definition would also include a
+σ-algebra. For the purposes of this paper, we can ignore such
+measure-theoretic complications).&lt;/p&gt;
+&lt;p&gt;After observing a realization from an information source, the decision
+maker can update with Bayes rule:&lt;/p&gt;
 &lt;p&gt;$$
 p_\theta&amp;rsquo;(r) = \frac{p_\theta f(r\ | \ \theta)}{\sum_{\theta&amp;rsquo;\in\Theta}p_{\theta&amp;rsquo;}f(r\ |\ \theta&amp;rsquo;)}
 $$&lt;/p&gt;
-&lt;p&gt;To avoid trivialities, assume that no realization perfectly rules in or out any subset of the states, that is, if realization has positive probability (density) under one state, it must have positive probability under all states. (In technical terms, assume the $F(\cdot\ |\ \theta)$ are all mutually absolutely continuous so the Radon-Nikodym derivatives, $dF(\cdot\ |\ \theta&amp;rsquo;)/dF(\cdot\ |\ \theta)$ all exist.) For notational simplicity in this illustration, I&amp;rsquo;ll assume each state-dependent distribution has finitely many possible realizations and thus pmf given by, $f$.&lt;/p&gt;
-&lt;p&gt;We can the define an &lt;em&gt;amount&lt;/em&gt; of information by a number of conditionally independent samples from such a source.&lt;/p&gt;
-&lt;p&gt;For illustration, consider a two-state world, $\theta\in{H,L}$. An information source might be a coin that is fairly waited in the $L$ state, and biased 70% to heads in the $H$ state. Then samples from this source would simply be the number of coin flips. In an experimental setting, samples would be literal samples under some experimental design.&lt;/p&gt;
-&lt;p&gt;The DM has a collection of information sources $\mathcal{E}_i,\ldots, \mathcal{E}_I$ from each of which she can purchase an arbitrary number of samples, $\mathbf{n}=[n_i]$, at some cost $[c_i]$ each.&lt;/p&gt;
-&lt;p&gt;The goal of this paper is to characterize the substitutability of different information sources under the normal Bayesian (ex ante) information value&amp;mdash;that is, the expected payoff gain from acting after observing a realization from information source $\mathcal{E}$:&lt;/p&gt;
-&lt;p&gt;$$
-V(\mathcal{E}) \equiv
-\sum_{r\in R} \max_a
-{\sum_\theta p&amp;rsquo;_\theta(r) u(a,\theta)}
-f(r) - \max_a
-{\sum_\theta p_\theta u(a,\theta)}
-$$
-where $f(r)\equiv \sum_\theta p_\theta f(r\ |\ \theta)$ is the unconditional realization probability for the given source.&lt;/p&gt;
-&lt;p&gt;Information value is typically a very poorly behaved function, so I approach the problem with an asymptotic approach using large deviations methods.&lt;/p&gt;
-&lt;p&gt;Throughout this notebook, I&amp;rsquo;ll be working with a 3 state decision problem.&lt;/p&gt;
+&lt;p&gt;To avoid trivialities, assume that no realization perfectly rules in or
+out any subset of the states, that is, if realization has positive
+probability (density) under one state, it must have positive probability
+under all states. (In technical terms, assume the $F(\cdot\ |\ \theta)$
+are all mutually absolutely continuous so the Radon-Nikodym derivatives,
+$dF(\cdot\ |\ \theta&amp;rsquo;)/dF(\cdot\ |\ \theta)$ all exist.) For notational
+simplicity in this illustration, I&amp;rsquo;ll assume each state-dependent
+distribution has finitely many possible realizations and thus pmf given
+by, $f$.&lt;/p&gt;
+&lt;p&gt;We can the define an &lt;em&gt;amount&lt;/em&gt; of information by a number of
+conditionally independent samples from such a source.&lt;/p&gt;
+&lt;p&gt;For illustration, consider a two-state world, $\theta\in\{H,L\}$. An
+information source might be a coin that is fairly waited in the $L$
+state, and biased 70% to heads in the $H$ state. Then samples from this
+source would simply be the number of coin flips. In an experimental
+setting, samples would be literal samples under some experimental
+design.&lt;/p&gt;
+&lt;p&gt;The DM has a collection of information sources $\mathcal{E}_i,\ldots,
+\mathcal{E}_I$ from each of which she can purchase an arbitrary number
+of samples, $\mathbf{n}=[n_i]$, at some cost $[c_i]$ each.&lt;/p&gt;
+&lt;p&gt;The goal of this paper is to characterize the substitutability of
+different information sources under the normal Bayesian (ex ante)
+information value&amp;mdash;that is, the expected payoff gain from acting after
+observing a realization from information source $\mathcal{E}$:&lt;/p&gt;
+&lt;p&gt;$$ V(\mathcal{E}) \equiv \sum_{r\in R} \max_a {\sum_\theta p&amp;rsquo;_\theta(r)
+u(a,\theta)} f(r) - \max_a {\sum_\theta p_\theta u(a,\theta)} $$
+where $f(r)\equiv \sum_\theta p_\theta f(r\ |\ \theta)$ is the
+unconditional realization probability for the given source.&lt;/p&gt;
+&lt;p&gt;Information value is typically a very poorly behaved function, so I
+approach the problem with an asymptotic approach using large deviations
+methods.&lt;/p&gt;
+&lt;p&gt;Throughout this notebook, I&amp;rsquo;ll be working with a 3 state decision
+problem.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;numstates &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;composite-information-sources-and-information-values&#34;&gt;Composite information sources and information values&lt;/h1&gt;
 &lt;h2 id=&#34;defining-information-sources&#34;&gt;Defining information sources&lt;/h2&gt;
-&lt;p&gt;In order to simulate information values, we need a way to define Blackwell experiments in a way amenable to computation: Define an information source as a $|\Theta|\times|R|$ matrix, so each row of the matrix lists the probability of each realization in that state. I will typically use Q to denote such a matrix.&lt;/p&gt;
-&lt;p&gt;The following function will generate a random information source:&lt;/p&gt;
+&lt;p&gt;In order to simulate information values, we need a way to define
+Blackwell experiments in a way amenable to computation: Define an
+information source as a $|\Theta|\times|R|$ matrix, so each row of the
+matrix lists the probability of each realization in that state. I will
+typically use Q to denote such a matrix.&lt;/p&gt;
+&lt;p&gt;The following code will specify a pair of experiments that happens to
+look nice, but if you&amp;rsquo;re running the code yourself, you can use the
+upper lines to create a pair of random experiments.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rand_source&lt;/span&gt;(numstates, numrealizations):
     &lt;span style=&#34;color:#75715e&#34;&gt;# generate a random array with the appropriate dimension&lt;/span&gt;
     Q &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;random&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;rand(numstates, numrealizations)
@@ -72,8 +106,8 @@ where $f(r)\equiv \sum_\theta p_\theta f(r\ |\ \theta)$ is the unconditional rea
     &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; Q
 
 
-Q1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; rand_source(numstates, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
-Q2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; rand_source(numstates, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;)
+&lt;span style=&#34;color:#75715e&#34;&gt;#Q1 = rand_source(numstates, 2)&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#Q2 = rand_source(numstates, 3)&lt;/span&gt;
 Qperfect &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;eye(numstates)   &lt;span style=&#34;color:#75715e&#34;&gt;# Perfect information source&lt;/span&gt;
 
 &lt;span style=&#34;color:#75715e&#34;&gt;# The following two make nice plots&lt;/span&gt;
@@ -117,9 +151,15 @@ State 0      0.07      0.18      0.75
 State 1      0.45      0.19      0.36
 State 2      0.45      0.05      0.5
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, we need to be able to quickly compute the matrix for composite experiments. First, we need to be able to compute the matrix for $n$ i.i.d. samples from 1 experiment.&lt;/p&gt;
-&lt;p&gt;Since the total number of realizations of each type is a sufficient statistic for the entire vector of realizations, we can simplify things by first computing all of the partitions of $n$ with $|R|$ components (all possible realization sums), the use a multinomial distribution.&lt;/p&gt;
-&lt;p&gt;The output matrix will be $|\Theta|\times$(number of ways to sum $|R|$ postive integers to add up to $n$)&lt;/p&gt;
+&lt;p&gt;Now, we need to be able to quickly compute the matrix for composite
+experiments. First, we need to be able to compute the matrix for $n$
+i.i.d. samples from 1 experiment.&lt;/p&gt;
+&lt;p&gt;Since the total number of realizations of each type is a sufficient
+statistic for the entire vector of realizations, we can simplify things
+by first computing all of the partitions of $n$ with $|R|$ components
+(all possible realization sums), the use a multinomial distribution.&lt;/p&gt;
+&lt;p&gt;The output matrix will be $|\Theta|\times$(number of ways to sum $|R|$
+positive integers to add up to $n$)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Compute appropriate partitions (returns a generator)&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;partitions&lt;/span&gt;(n, numrealizations):
     &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; numrealizations &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;:
@@ -163,7 +203,13 @@ State 0            0.195112  0.423864  0.306936  0.074088
 State 1            0.050653  0.258741  0.440559  0.250047
 State 2            0.912673  0.084681  0.002619  2.7e-05
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Second, we need to be able to composite two &lt;em&gt;distinct&lt;/em&gt; information sources. If info source $\mathcal{E}_1$ and $\mathcal{E}_2$ have $|R_1|$ and $|R_2|$ possible realizations respectively, then the composite source consisting of 1 sample from each has $|R_1|\times|R_2|$ outcomes. We can get a matrix of all possible combination probabilities by simply by listing out each element of the outer product of the rows of each matrix:&lt;/p&gt;
+&lt;p&gt;Second, we need to be able to composite two &lt;em&gt;distinct&lt;/em&gt; information
+sources. If info source $\mathcal{E}_1$ and $\mathcal{E}_2$ have $|R_1|$
+and $|R_2|$ possible realizations respectively, then the composite
+source consisting of 1 sample from each has $|R_1|\times|R_2|$
+outcomes. We can get a matrix of all possible combination probabilities
+by simply by listing out each element of the outer product of the rows
+of each matrix:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;composite_source&lt;/span&gt;(Q1, Q2):
     numstates &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Q1&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]
     numrealizations &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Q1&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; Q2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]
@@ -192,21 +238,48 @@ State 0              0.0294        0.0756        0.315         0.0406        0.1
 State 1              0.2835        0.1197        0.2268        0.1665        0.0703        0.1332
 State 2              0.0135        0.0015        0.015         0.4365        0.0485        0.485
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note that we repeated composite a matrix with itself to get an equivalent $n$ sample matrix, but this would produce a massive matrix (size $|R|^n$). Most computers would hit memory limititations for any $n$ bigger than 20 or so brute forcing it like that.&lt;/p&gt;
+&lt;p&gt;Note that we repeated composite a matrix with itself to get an
+equivalent $n$ sample matrix, but this would produce a massive matrix
+(size $|R|^n$). Most computers would hit memory limitations for any
+$n$ bigger than 20 or so brute forcing it like that isn&amp;rsquo;t practical.&lt;/p&gt;
 &lt;h2 id=&#34;value-of-information&#34;&gt;Value of information&lt;/h2&gt;
-&lt;p&gt;In order to compute information value, we must now define a state-dependent utility function and a prior belief. I&amp;rsquo;ll code the utility function as a $|A|\times|\Theta|$ matrix of payoffs where $U_{a\theta}=u(a,\theta)$. The prior can simply be coded as a vector of belief probabilities.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# example payoff matrix (payoff 1 only if choose the correct state&lt;/span&gt;
-&lt;span style=&#34;color:#75715e&#34;&gt;# plus an insurance action that always gives a low payoff)&lt;/span&gt;
+&lt;p&gt;In order to compute information value, we must now define a
+state-dependent utility function and a prior belief. I&amp;rsquo;ll code the
+utility function as a $|A|\times|\Theta|$ matrix of payoffs where
+$U_{a\theta}=u(a,\theta)$. The prior can simply be coded as a vector of
+belief probabilities.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# example payoff matrix (payoff 1 only if choose the correct state)&lt;/span&gt;
 U &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;eye(numstates)
 &lt;span style=&#34;color:#75715e&#34;&gt;# example prior vector (diffuse prior)&lt;/span&gt;
 P &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ones(numstates) &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; numstates
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Information value is typically a fairly tricky thing to compute. In order to maximize computational efficiency, I vectorize the problem where possible. For a given information matrix, $Q$, and payoff matrix $U$, we can write the value &lt;em&gt;with&lt;/em&gt; information as&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Information value is typically a fairly tricky thing to compute. In
+order to maximize computational efficiency, I vectorize the problem
+where possible. For a given information matrix, $Q$, and payoff matrix
+$U$, we can write the value &lt;em&gt;with&lt;/em&gt; information as&lt;/p&gt;
 &lt;p&gt;$$ W(Q) = \max_D{\text{tr}(QDU\pi)}$$&lt;/p&gt;
-&lt;p&gt;where $pi$ is a matrix who&amp;rsquo;s diagonal elements are the prior probabilities and $D$ is a $|R|\times|A|$ matrix specifying the probability of taking each action after each realization (this is a linear program: $D$ generically is all zeros and ones since each realization generically has a unique optimal response.&lt;/p&gt;
-&lt;p&gt;(&lt;a href=&#34;https://cpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/3/352/files/2013/01/LeshnoSpector92.pdf&#34;&gt;Leshno, 1992&lt;/a&gt; uses this formulation to provide an elementary proof of Blackwell&amp;rsquo;s theorem for the finite-action/finite-state case.)&lt;/p&gt;
-&lt;p&gt;The value &lt;em&gt;of&lt;/em&gt; information would then be $W(Q)$ minus the payoff from acting with no information. Such a subtraction is a monotone transformation, so it won&amp;rsquo;t affect the ordinal properties I&amp;rsquo;m interested in.&lt;/p&gt;
-&lt;p&gt;In order to evaluate how close a bundle is to perfect information, I will sometimes use the ratio of the full-information gap (the difference between the value of a perfect signal and $W(Q)$, relative to the full-info value. This will be a percentage that approaches zero as the amount of samples increases.&lt;/p&gt;
-&lt;p&gt;None of these approximation would be particularly useful if they require so many samples as to be indistinguishable from a perfect source anyways. I will use thus use this relative info-gap as an ad hoc measure how useful the approximation is. That is, the relavent approximations are useful if they are accurate, even when the relative info-gap is large.&lt;/p&gt;
+&lt;p&gt;where $\pi$ is a matrix who&amp;rsquo;s diagonal elements are the prior
+probabilities and $D$ is a $|R|\times|A|$ matrix specifying the
+probability of taking each action after each realization (this is a
+linear program: $D$ generically is all zeros and ones since each
+realization generically has a unique optimal response.&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&#34;https://cpb-us-w2.wpmucdn.com/campuspress.yale.edu/dist/3/352/files/2013/01/LeshnoSpector92.pdf&#34;&gt;Leshno,
+1992&lt;/a&gt;
+uses this formulation to provide an elementary proof of Blackwell&amp;rsquo;s
+theorem for the finite-action/finite-state case.)&lt;/p&gt;
+&lt;p&gt;The value &lt;em&gt;of&lt;/em&gt; information would then be $W(Q)$ minus the payoff from
+acting with no information. Such a subtraction is a monotone
+transformation, so it won&amp;rsquo;t affect the ordinal properties I&amp;rsquo;m interested
+in.&lt;/p&gt;
+&lt;p&gt;In order to evaluate how close a bundle is to perfect information, I
+will sometimes use the ratio of the full-information gap (the difference
+between the value of a perfect signal and $W(Q)$, relative to the
+full-info value. This will be a percentage that approaches zero as the
+amount of samples increases.&lt;/p&gt;
+&lt;p&gt;None of these approximation would be particularly useful if they require
+so many samples as to be indistinguishable from a perfect source
+anyways. I will thus use this relative info-gap as an ad hoc measure how
+useful the approximation is. That is, the relevant approximations are
+useful if they are accurate, even when the relative info-gap is large.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;info_value&lt;/span&gt;(Q, U, P):
     numrealizations &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Q&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]
 
@@ -230,34 +303,58 @@ Expected value of acting after observing Q1:  0.533333
 --------------------------------------------  --------
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;chernoff-precision&#34;&gt;Chernoff precision&lt;/h1&gt;
-&lt;p&gt;In the paper, I show that two information sources are exchangeable with ratios of respective precision-like indices of each experiment. In order to define this precision, we must first take a brief detour into large deviations theory.&lt;/p&gt;
-&lt;p&gt;I approach the problem of approximating information values by approximating the probability of a &amp;ldquo;mistake&amp;rdquo; (taking a suboptimal action in a given state). The normal form of Bayes&amp;rsquo;s rule is a bit messy, so instead of working with probabilities, I work with log-likelihood ratios, where Bayes rule becomes a sum:&lt;/p&gt;
+&lt;p&gt;In the paper, I show that two information sources are exchangeable with
+ratios of respective precision-like indices of each experiment. In order
+to define this precision, we must first take a brief detour into large
+deviations theory.&lt;/p&gt;
+&lt;p&gt;I approach the problem of approximating information values by
+approximating the probability of a &amp;ldquo;mistake&amp;rdquo; (taking a suboptimal action
+in a given state). The normal form of Bayes&amp;rsquo;s rule is a bit messy, so
+instead of working with probabilities, I work with log-likelihood
+ratios, where Bayes rule becomes a sum:&lt;/p&gt;
 &lt;p&gt;$$
-\log\bigg(\frac{p&amp;rsquo;&lt;em&gt;{\theta}(r)}{p&amp;rsquo;&lt;/em&gt;{\theta&amp;rsquo;}(r)}\bigg) =
+\log\bigg(\frac{p_{\theta}&#39;(r)}{p_{\theta&amp;rsquo;}&#39;(r)}\bigg) =
 \log\bigg(\frac{p_\theta}{p_{\theta&amp;rsquo;}}\bigg) +
 \log\bigg(\frac{f(r\ |\ \theta)}{f(r\ |\ \theta)}\bigg)
 $$&lt;/p&gt;
-&lt;p&gt;And, of course, we have no shortage of asymptotic results for approximating sums of many independent distributions.&lt;/p&gt;
-&lt;p&gt;For a given pair of states, define the Chernoff index of an experiment, $\mathcal{E}_1$, as the minimized value of the moment generating function (MGF) of the distribitution of log-likelihood ratios (LLR):&lt;/p&gt;
+&lt;p&gt;And, of course, we have no shortage of asymptotic results for
+approximating sums of many independent distributions.&lt;/p&gt;
+&lt;p&gt;For a given pair of states, define the Chernoff index of an experiment,
+$\mathcal{E}_1$, as the minimized value of the moment generating
+function (MGF) of the distribution of log-likelihood ratios (LLR):&lt;/p&gt;
 &lt;p&gt;$$
 \rho_1 \equiv \min_t \sum_r f(r\ |\ \theta)^t f(r\ |\ \theta&amp;rsquo;)^{1-t}
 $$
 (Define $\tau_1$ as the minimizer)&lt;/p&gt;
-&lt;p&gt;Note that the expected value of the distribution of the above mgf is the negative Kullback-Leibler divergence,  $-D(F(\cdot\ |\ \theta&amp;rsquo;)\ ||\  F(\cdot\ |\ \theta))$.&lt;/p&gt;
-&lt;p&gt;Note that because MGF of an indpendent sum is the product of MGFs, we have that $n$ samples from $\mathcal{E}_1$ will have Chernoff index $\rho_1^n$.&lt;/p&gt;
-&lt;p&gt;Furthermore, because the minimum of a sum will be bigger than the sum of minima, we have that the Chernoff index of a composite is more than the sum of its parts:&lt;/p&gt;
+&lt;p&gt;Note that the expected value of the distribution of the above mgf is the
+negative Kullback-Leibler divergence, $-D(F(\cdot\ |\ \theta&amp;rsquo;)\ ||&lt;br&gt;
+F(\cdot\ |\ \theta))$.&lt;/p&gt;
+&lt;p&gt;Note that because the MGF of an independent sum is the product of MGFs, we
+have that $n$ samples from $\mathcal{E}_1$ will have Chernoff index
+$\rho_1^n$.&lt;/p&gt;
+&lt;p&gt;Furthermore, because the minimum of a sum will be bigger than the sum of
+minima, we have that the Chernoff index of a composite is more than the
+sum of its parts:&lt;/p&gt;
 &lt;p&gt;$$
 \rho_{12} \geq \rho_1\rho_2
 $$&lt;/p&gt;
-&lt;p&gt;Now, we can define the Chernoff &lt;em&gt;precision&lt;/em&gt; for a given state pair of a test by $\beta \equiv -\log(\rho)$. I call this a precision because, for Gaussian tests, it is, up to a multiplicative constant, the same as classical precision ($1/\sigma^2$).&lt;/p&gt;
-&lt;p&gt;This measure has a number of properties that you might expect for something called a precision&lt;/p&gt;
+&lt;p&gt;Now, we can define the Chernoff &lt;em&gt;precision&lt;/em&gt; for a given state pair of a
+test by $\beta \equiv -\log(\rho)$. I call this a precision because, for
+Gaussian tests, it is, up to a multiplicative constant, the same as
+classical precision ($1/\sigma^2$).&lt;/p&gt;
+&lt;p&gt;This measure has a number of properties that you might expect for
+something called a precision&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;For any non-trivial experiment, $\beta&amp;gt;0$&lt;/li&gt;
 &lt;li&gt;$n$ samples from the same experiment has precision $n\beta$&lt;/li&gt;
 &lt;li&gt;Blackwell dominant experiments have higher precision&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Intuitively, you can think of the Chernoff precision as measuring how well an information source can distinguish between a given pair of states.&lt;/p&gt;
-&lt;p&gt;Because the Chernoff number of a composite is weakly higher than the product of the individual Chernoff numbers, a composite experiment is weakly less precise, for a given state, than the sum of it&amp;rsquo;s parts.&lt;/p&gt;
+&lt;p&gt;Intuitively, you can think of the Chernoff precision as measuring how
+well an information source can distinguish between a given pair of
+states.&lt;/p&gt;
+&lt;p&gt;Because the Chernoff number of a composite is weakly higher than the
+product of the individual Chernoff numbers, a composite experiment is
+weakly less precise, for a given state, than the sum of it&amp;rsquo;s parts.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# the following returns the full list of state-pair precisions&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;# and their respective MGF minimizers&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;precisions&lt;/span&gt;(Q):
@@ -294,8 +391,14 @@ table &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=
               0.271436        0.276094
               0.343391        0.343559
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now, it might seem that composites are always worse than the sum of their parts since, for any state pair, the composite is always less precise than the sum of its parts. But the value of information depends generically on a source&amp;rsquo;s ability to distinguish any state from any other. Moscarini and Smith, 2002, showed that, for large sample sizes, the only state pair that matters is the pair hardest to tell apart&amp;mdash;i.e. the pair with the least precision (highest Chernoff index).&lt;/p&gt;
-&lt;p&gt;Thus complementarity often arises when experiments differ in the pair of states they most struggle to distinguish:&lt;/p&gt;
+&lt;p&gt;Now, it might seem that composites are always worse than the sum of
+their parts since, for any state pair, the composite is always less
+precise than the sum of its parts. But Moscarini and Smith (2002) showed
+that, for large sample sizes, the only state pair that matters is the
+pair hardest to tell apart&amp;mdash;i.e. the pair with the least precision
+(highest Chernoff index).&lt;/p&gt;
+&lt;p&gt;Thus complementarity often arises when experiments differ in the pair of
+states they most struggle to distinguish:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;beta1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; min(beta1list)
 beta2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; min(beta2list)
 beta12 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; min(beta12list)
@@ -305,24 +408,43 @@ beta12 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; min(beta12list)
 ----------------------------  -----------------------
                     0.149026                 0.051485
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In this particular example, we can see that it is in fact the composite has a &lt;em&gt;higher&lt;/em&gt; least precision than the sum of least precisions of its parts.&lt;/p&gt;
+&lt;p&gt;In this particular example, we can see that it is in fact the composite
+has a &lt;em&gt;higher&lt;/em&gt; least precision than the sum of least precisions of its
+parts.&lt;/p&gt;
 &lt;h1 id=&#34;plotting-indifference-curves&#34;&gt;Plotting &amp;ldquo;indifference curves&amp;rdquo;&lt;/h1&gt;
-&lt;p&gt;In particular, at large samples, two bundles of samples will perform equally if they have equal least precision. Information value at large samples is ordinally equivalent to&lt;/p&gt;
+&lt;p&gt;In particular, at large samples, two bundles of samples will perform
+equally if they have equal least precision. Information value at large
+samples is ordinally equivalent to&lt;/p&gt;
 &lt;p&gt;$$
 v(n_1, n_2) \simeq (n_1+n_2)\beta_\omega
 $$&lt;/p&gt;
-&lt;p&gt;where $\beta_\omega$ is the least precision dichotomy for a bundle that is composed of $\omega$ fraction of samples from $n_1$. Furthermore, we can breakdown $\beta_\omega$ into component precisions:&lt;/p&gt;
+&lt;p&gt;where $\beta_\omega$ is the least precision dichotomy for a bundle that
+is composed of $\omega$ fraction of samples from $n_1$. Furthermore, we
+can breakdown $\beta_\omega$ into component precisions:&lt;/p&gt;
 &lt;p&gt;$$
 \beta_\omega=\omega\beta_{\omega 1}+(1-\omega)\beta_{\omega 2}
 $$&lt;/p&gt;
-&lt;p&gt;where $\beta_{\omega i}$ is $-\log M_i(\tau_\omega)$, is the negative log of the LLR MGF for the composite&amp;rsquo;s worst-case state pair, evaluated at the composite&amp;rsquo;s minimizer. We can then write&lt;/p&gt;
+&lt;p&gt;where $\beta_{\omega i}$ is $-\log M_i(\tau_\omega)$, is the negative
+log of the LLR MGF for the composite&amp;rsquo;s worst-case state pair, evaluated
+at the composite&amp;rsquo;s minimizer. We can then write&lt;/p&gt;
 &lt;p&gt;$$
 v(n_1, n_2) \simeq n_1\beta_{\omega 1} + n_2\beta_{\omega 2}
 $$&lt;/p&gt;
-&lt;p&gt;Heuristically, then it seems like the MRS between two samples at any bundle with $\omega$ fraction from $\mathcal{E}_1$ must then be the ratio of the component precisions. (For small subsititutions, relative to total sample size, the fraction of samples from each source doesn&amp;rsquo;t change much, so the component precisions don&amp;rsquo;t change much.)&lt;/p&gt;
-&lt;p&gt;Additionally, since the value is a min of a sums of precisions, there will be kinks when the least-precision state pair changes.&lt;/p&gt;
-&lt;p&gt;Of course, samples are fundamentally discrete so there is no MRS. In the paper, I formally define a notion of asymptotic MRS, which basically defines the slope of the boundary between upper and lower contour sets. For the purpose of interpretting things here, it works well enough to just pretend samples are divisible.&lt;/p&gt;
-&lt;p&gt;First, note that the component precisions only depend on the fraction of the bundle from each source (info value is homothetic). First, I compute the component precision for a given composite factor $\omega$.&lt;/p&gt;
+&lt;p&gt;Heuristically, then it seems like the MRS between two samples at any
+bundle with $\omega$ fraction from $\mathcal{E}_1$ must then be the
+ratio of the component precisions. (For small substitutions, relative
+to total sample size, the fraction of samples from each source doesn&amp;rsquo;t
+change much, so the component precisions don&amp;rsquo;t change much.)&lt;/p&gt;
+&lt;p&gt;Additionally, since the value is a min of a sums of precisions, there
+will be kinks when the least-precision state pair changes.&lt;/p&gt;
+&lt;p&gt;Of course, samples are fundamentally discrete so there is no MRS. In the
+paper, I formally define a notion of asymptotic MRS, which basically
+defines the slope of the boundary between upper and lower contour
+sets. For the purpose of interpreting things here, it works well enough
+to just pretend samples are divisible.&lt;/p&gt;
+&lt;p&gt;First, note that the component precisions only depend on the fraction of
+the bundle from each source (info value is homothetic). First, I compute
+the component precision for a given composite factor $\omega$.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;n1start &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# return the component precision for each test at the w composite factor&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;comp_precision&lt;/span&gt;(Q1, Q2, w):
@@ -361,11 +483,13 @@ $$&lt;/p&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;total_precision&lt;/span&gt;(Q1, Q2, w):
     beta1w, beta2w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; comp_precision(Q1, Q2, w)
     &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; w&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;beta1w &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; (&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;w)&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;beta2w
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We can then compute points on an indifference curve by using the differential equation defined by the asymptotic MRS ($dn_2/dn_1$):&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We can then compute points on an indifference curve by using the
+differential equation defined by the asymptotic MRS ($dn_2/dn_1$):&lt;/p&gt;
 &lt;p&gt;$$
 \text{AMRS}(\omega) = \frac{\beta_{\omega 1}}{\beta_{\omega 2}}
 $$&lt;/p&gt;
-&lt;p&gt;In all the plots that follow, the reference point is the lower right corner bundle consisting entirely of samples from $\mathcal{E}_1$.&lt;/p&gt;
+&lt;p&gt;In all the plots that follow, the reference point is the lower right
+corner bundle consisting entirely of samples from $\mathcal{E}_1$.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mrs_approx&lt;/span&gt;(n1start):
     dn &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0.01&lt;/span&gt;
     n1pointsapprox &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;arange(n1start, &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dn, &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;dn)
@@ -380,7 +504,10 @@ $$&lt;/p&gt;
 
 
 n1pointsapprox, n2pointsapprox &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mrs_approx(n1start)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now we can compare this to the true upper/lower contour set computed numerically using the info value function defined earlier. The plot below shows the locus of bundles that are minimally better than the reference point (the maximal boundary for the upper contour set).&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now we can compare this to the true upper/lower contour set computed
+numerically using the info value function defined earlier. The plot
+below shows the locus of bundles that are minimally better than the
+reference point (the maximal boundary for the upper contour set).&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mrs_true&lt;/span&gt;(n1start):
     Q1n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; n_samples(Q1, n1start)
     startval &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; info_value(Q1n, U, P)
@@ -412,7 +539,9 @@ ax&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;set_ylabel(&lt;span st
 ax&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;plot(n1pointstrue, n2pointstrue, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;k&amp;#39;&lt;/span&gt;,
         n1pointsapprox, n2pointsapprox, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;--k&amp;#39;&lt;/span&gt;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;./info-consumer-theory_37_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Now compute the relative info gap for the indifference curve plotted above. Higher relative info-gap implies the approximation is useful even at small samples.&lt;/p&gt;
+&lt;p&gt;Now compute the relative info gap for the indifference curve plotted
+above. Higher relative info-gap implies the approximation is useful even
+at small samples.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;Q1n &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; n_samples(Q1, n1start)
 &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(tabulate([[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Relative info-gap:&amp;#34;&lt;/span&gt;,
                  relative_info_gap(Q1n, U, P)]]))
@@ -420,14 +549,26 @@ ax&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;plot(n1pointstrue, n2p
 Relative info-gap:  0.0438343
 ------------------  ---------
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Note that the approximation effectively sets the probability of a mistake other than the most likely one to zero. This approximation then tends to &lt;em&gt;overestimate&lt;/em&gt; payoffs, and thus the approximate MRS will tend to lie to left of the truth.&lt;/p&gt;
-&lt;p&gt;In the above plot, we can see that approximation performs relatively well, even at small sample sizes. One limitation is that the approximation will always perform somewhat poorly in a region around a kink for two reasons:&lt;/p&gt;
+&lt;p&gt;Note that the approximation effectively sets the probability of a
+mistake other than the most likely one to zero. This approximation then
+tends to &lt;em&gt;overestimate&lt;/em&gt; payoffs, and thus the approximate MRS will tend
+to lie to left of the truth.&lt;/p&gt;
+&lt;p&gt;In the above plot, we can see that approximation performs relatively
+well, even at small sample sizes. One limitation is that the
+approximation will always perform somewhat poorly in a region around a
+kink for two reasons:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;The second lowest precision is very close to the lowest, so only accounting for the lowest precision doesn&amp;rsquo;t work as well; and,&lt;/li&gt;
-&lt;li&gt;Because the kinks are inward pointing, total sample size tends to be lower there. In the above example, the corners have total sample size between 40 and 50, but the kink has only about 15 total samples.&lt;/li&gt;
+&lt;li&gt;The second lowest precision is very close to the lowest, so only
+accounting for the lowest precision doesn&amp;rsquo;t work as well; and,&lt;/li&gt;
+&lt;li&gt;Because the kinks are inward pointing, total sample size tends to be
+lower there. In the above example, the corners have total sample size
+between 40 and 50, but the kink has only about 15 total samples.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;But regardless, as sample size increases, we can always get an arbitrarily good approximation for composite factors arbitrarily close to that of any kink point.&lt;/p&gt;
-&lt;p&gt;Below I plot again, but at twice the sample size to ilustrate the convergence:&lt;/p&gt;
+&lt;p&gt;But regardless, as sample size increases, we can always get an
+arbitrarily good approximation for composite factors arbitrarily close
+to that of any kink point.&lt;/p&gt;
+&lt;p&gt;Below I plot again, but at twice the sample size to illustrate the
+convergence:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;n1start &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;
 n1pointsapprox, n2pointsapprox &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mrs_approx(n1start)
 n1pointstrue, n2pointstrue &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; mrs_true(n1start)
