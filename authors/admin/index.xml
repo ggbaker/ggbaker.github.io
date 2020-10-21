@@ -84,6 +84,7 @@ and &lt;a href=&#34;https://twitter.com/EmilyNix100/status/1294068665655025664?s
 isn&amp;rsquo;t required (My main desktop runs Linux)&lt;/li&gt;
 &lt;li&gt;A good camera&lt;/li&gt;
 &lt;li&gt;A tablet with stylus (iPad with Apple Pencil)&lt;/li&gt;
+&lt;li&gt;A green screen and some way to hold it up&lt;/li&gt;
 &lt;li&gt;A second monitor is a big plus&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I can&amp;rsquo;t overstate the importance of a good camera. If you
@@ -148,11 +149,16 @@ videos visible separately.&lt;/p&gt;
 
 &lt;/figure&gt;
 
-&lt;p&gt;I sit on a bar stool about 2 meters back from my camera in the left
+&lt;p&gt;I sit on a bar stool about 1.5 meters back from my camera in the left
 third of the camera&amp;rsquo;s field of view. This leaves most of the camera&amp;rsquo;s
 field of view as empty green screen that I can fill with the slides and
 gesture over. In the image below showing the OBS setup, the red box is
-the extent of the area I can gesture in.&lt;/p&gt;
+the extent of the area I can gesture in. My camera lens is fairly wide
+(28mm full-frame equivalent, roughly an 80 degree field of view). If
+you&amp;rsquo;re using a narrower camera angle&amp;mdash;most smart phones are probably
+closer to 60 degrees&amp;mdash;you&amp;rsquo;d have to sit farther back from the camera to
+get a similar effect. If you&amp;rsquo;re considering buying a webcam, look for
+one with a wider field of view.&lt;/p&gt;
 &lt;p&gt;Since I&amp;rsquo;m sitting so far back from my desk, I also use a small table for
 my iPad, and I adjust my microphone to be as close as possible.&lt;/p&gt;
 
@@ -227,7 +233,8 @@ Documents&lt;/a&gt; on the iPad)&lt;/li&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Since many others have given excellent tutorials on how to use OBS (see
-Luke Stein&amp;rsquo;s tutorial linked above), I will assume some familiarity with it.&lt;/p&gt;
+Luke Stein&amp;rsquo;s tutorial linked above), I&amp;rsquo;ll skip the details of the setup
+and jump straight to the scene arrangement.&lt;/p&gt;
 &lt;p&gt;My primary scene in OBS has three sources:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Webcam input, with Chroma Key (green screen) filter applied, and with
