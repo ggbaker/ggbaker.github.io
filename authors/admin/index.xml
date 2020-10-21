@@ -290,7 +290,7 @@ zoom to avoid duplicate images.&lt;/p&gt;
 &lt;p&gt;This method &lt;em&gt;mostly&lt;/em&gt; fixes the blurry text issue. Unfortunately, the
 video feed can lag the audio a bit which can be distracting for
 the viewers. This lag is somewhat unpredictable; in one of my practice
-talks it was apparently up to second, and in my final department talk it
+talks it was apparently up to a second, and in my final department talk it
 wasn&amp;rsquo;t much of an issue at all. Your mileage may vary.&lt;/p&gt;
 &lt;p&gt;I haven&amp;rsquo;t tested this method with non-Zoom conference software, but I
 wouldn&amp;rsquo;t expect it to work well there. It seems like most software uses
