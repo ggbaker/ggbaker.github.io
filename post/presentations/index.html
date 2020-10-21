@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Gary Baker">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Like most grad students entering the job market this year, I&#39;ve had to wrestle with the transition to giving talks remotely. Personally, I have some trouble focusing on virtual seminars since the format tends to be fairly static: mostly still slides with perhaps a camera window to the side. To avoid this, I&#39;ve spent a fair amount of time (*read*: procrastinating) trying to put together a setup that allows me to move around and interact with my materials a bit more. Here, I outline an approach that&#39;s worked reasonably well for me.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.garygbaker.com/post/presentations/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#c5050c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500%7CAlegreya+Sans:400,500%7CAlegreya:400,500i,700%7CSpace+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.garygbaker.com/post/presentations/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Gary Baker">
+  <meta property="og:url" content="https://www.garygbaker.com/post/presentations/">
+  <meta property="og:title" content="Remote teaching and seminars with OBS | Gary Baker">
+  <meta property="og:description" content="Like most grad students entering the job market this year, I&#39;ve had to wrestle with the transition to giving talks remotely. Personally, I have some trouble focusing on virtual seminars since the format tends to be fairly static: mostly still slides with perhaps a camera window to the side. To avoid this, I&#39;ve spent a fair amount of time (*read*: procrastinating) trying to put together a setup that allows me to move around and interact with my materials a bit more. Here, I outline an approach that&#39;s worked reasonably well for me."><meta property="og:image" content="https://www.garygbaker.com/post/presentations/featured.png">
+  <meta property="twitter:image" content="https://www.garygbaker.com/post/presentations/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-10-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-10-20T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.garygbaker.com/post/presentations/"
+  },
+  "headline": "Remote teaching and seminars with OBS",
+  
+  "image": [
+    "https://www.garygbaker.com/post/presentations/featured.png"
+  ],
+  
+  "datePublished": "2020-10-20T00:00:00Z",
+  "dateModified": "2020-10-20T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Gary Baker"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "UW-Madison",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.garygbaker.com/img/icon-512.png"
+    }
+  },
+  "description": "Like most grad students entering the job market this year, I've had to wrestle with the transition to giving talks remotely. Personally, I have some trouble focusing on virtual seminars since the format tends to be fairly static: mostly still slides with perhaps a camera window to the side. To avoid this, I've spent a fair amount of time (*read*: procrastinating) trying to put together a setup that allows me to move around and interact with my materials a bit more. Here, I outline an approach that's worked reasonably well for me."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Remote teaching and seminars with OBS | Gary Baker</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Gary Baker</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Remote teaching and seminars with OBS</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/admin/">Gary Baker</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 20, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="featured.png" data-caption="A scene from my department job talk">
+<img src="featured.png" alt="" ></a>
+
+
+  
+  
+  <figcaption>
+    A scene from my department job talk
+  </figcaption>
+
+
+</figure>
+
+<h1 id="background">Background</h1>
+<p>Like most grad students entering the job market this year, I&rsquo;ve had to
+wrestle with the transition to giving talks remotely. Personally, I have
+some trouble focusing on virtual seminars since the format tends to be
+fairly static: mostly still slides with perhaps a camera window to the
+side. To avoid this, I&rsquo;ve spent a fair amount of time (<em>read</em>:
+procrastinating) trying to put together a setup that allows me to move
+around and interact with my materials a bit more. Below, I outline an
+approach that&rsquo;s worked reasonably well for me.</p>
+<p>Since I&rsquo;m not teaching this semester, I&rsquo;ve mostly focused on how to
+adapt an academic seminar to a remote setting, but I would use a
+variation of this for remote teaching given the opportunity.</p>
+<p>I set out to replicate three particular aspects of in-person
+seminars/teaching:</p>
+<ol>
+<li>The ability to easily handwrite equations/graphs on a blackboard,</li>
+<li>The ability to draw attention to certain parts of a slide or
+blackboard, whether by laser pointer or physically pointing, and</li>
+<li>The ability to move and gesture while speaking.</li>
+</ol>
+<p>For all of this, I&rsquo;m indebted to the work of others who took time
+to experiment with different methods for remote teaching/seminars and
+create guides. In particular,</p>
+<ul>
+<li>Luke Stein&rsquo;s YouTube series: <a href="https://www.youtube.com/watch?v=upTyHsxdlYs&amp;list=PLEPYFCNANvR_ZFZVPp-y_-eo5-AlOK_0Z">OBS for teaching tutorial</a></li>
+<li>David J. Malan&rsquo;s post: <a href="https://medium.com/@cs50/teaching-from-home-via-zoom-c3b336446fbc">Teaching from Home via
+Zoom</a></li>
+<li>A variety of twitter posts by Emily Nix, for example,
+<a href="https://twitter.com/EmilyNix100/status/1297261177060302849?s=20">here</a>
+and <a href="https://twitter.com/EmilyNix100/status/1294068665655025664?s=20">here</a></li>
+</ul>
+<h1 id="hardware">Hardware</h1>
+<h2 id="needed-harware">Needed harware:</h2>
+<ul>
+<li>A computer (obviously): a relatively recent Mac would work best, but
+isn&rsquo;t required (My main desktop runs Linux)</li>
+<li>A good camera</li>
+<li>A tablet with stylus (iPad with Apple Pencil)</li>
+<li>A second monitor is a big plus</li>
+</ul>
+<p>I can&rsquo;t overstate the importance of a good camera. If you
+have a reasonably modern digital camera, there&rsquo;s a good chance it can
+send a video feed over usb to a computer. I use a Nikon D5500 that I
+normally use for bird photography, but you almost certainly have a
+pretty good webcam already available to you: a smart phone. Prior to
+rigging up my Nikon, I simply used my smartphone on a cheap gooseneck
+clamp using a free app called
+<a href="https://www.dev47apps.com/">Droidcam</a>. A wider angle lens is a big plus
+here to give yourself more room to move around without having to stand
+too far back.</p>
+<p>Even with a good camera, you need to be extremely well lit to get a good
+image (and to get a good green screen effect). I use three lamps each
+with some cheap 1500 lumen LED bulbs.</p>
+<p>For the microphone, so long as you don&rsquo;t use your laptop&rsquo;s built in-mic,
+I don&rsquo;t think the microphone is that important. The inline mic in most
+earbuds works reasonably well, but it might be worth spending a little
+bit on the mic. I use a Blue Yeti which works well enough (as a
+condenser mic, it works reasonably well even sitting a bit back from
+it), but if I had to do it again, I probably would have gotten a cheap
+lav mic.</p>
+<p>Of course, to put yourself in the same scene with slides, there&rsquo;s not
+much substitute for a proper green screen. I got a cheap one on Amazon
+for under $20, but be aware that the cheap screens come folded and need
+steam-ironing to remove the creases. Ideally, you&rsquo;ll have a wall behind
+you to mount it, but otherwise you&rsquo;ll need some kind of stand (which
+will add some expense).</p>
+<p>Lastly, you&rsquo;ll need some way to write easily. For me, that means an iPad
+with the Apple Pencil. You will also need some way to get the video feed
+from the tablet into your computer.</p>
+<p>Finally, it&rsquo;s extremely useful (though not necessary) to have at least
+one extra monitor so you can have the chat window and participants&rsquo;
+videos visible separately.</p>
+<h2 id="room-setup">Room setup</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="messydesk.jpg" data-caption="A very messy desk set up for presenting">
+<img src="messydesk.jpg" alt="" ></a>
+
+
+  
+  
+  <figcaption>
+    A very messy desk set up for presenting
+  </figcaption>
+
+
+</figure>
+
+<p>I sit on a bar stool about 2 meters back from my camera in the left
+third of the camera&rsquo;s field of view. This most of the camera&rsquo;s field of
+view as empty green screen that I can fill with the slides and gesture
+over in software. In the image below showing the OBS setup, the red box
+is the extent of the area I can gesture in.</p>
+<p>Since I&rsquo;m sitting so far back from my desk, I also use a small table for
+my iPad, and I adjust my microphone to be as close as possible.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="roomsetup.jpg" data-caption="Where I sit">
+<img src="roomsetup.jpg" alt="" ></a>
+
+
+  
+  
+  <figcaption>
+    Where I sit
+  </figcaption>
+
+
+</figure>
+
+<h1 id="software">Software</h1>
+<h2 id="needed-software">Needed software</h2>
+<ul>
+<li><a href="https://obsproject.com/">OBS</a></li>
+<li>Virtual Cam Extension for OBS
+(<a href="https://obsproject.com/forum/resources/obs-virtualcam.949/">Windows</a>,
+<a href="https://github.com/johnboiles/obs-mac-virtualcam">Mac</a>,
+<a href="https://github.com/CatxFish/obs-v4l2sink">Linux</a>)</li>
+<li>PDF software of choice on for the tablet (I use <a href="https://readdle.com/documents">Readdle
+Documents</a> on the iPad)</li>
+<li>Some way to get the video feed from the tablet to the computer (see below)</li>
+</ul>
+<h2 id="obs-setup">OBS setup</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="obs.png" data-caption="OBS Scene arrangement">
+<img src="obs.png" alt="" ></a>
+
+
+  
+  
+  <figcaption>
+    OBS Scene arrangement
+  </figcaption>
+
+
+</figure>
+
+<p>Since many others have given excellent tutorials on how to use OBS (see
+Luke Stein&rsquo;s tutorial linked above), I will assume some familiarity with it.</p>
+<p>My primary scene in OBS has three sources:</p>
+<ol>
+<li>Webcam input, with Chroma Key (green screen) filter applied, and with
+the image reflected (so I can more easily see where I&rsquo;m &ldquo;pointing&rdquo;)</li>
+<li>Flat color as a background (black worked best for me)</li>
+<li>Video input from my iPad (see below)</li>
+</ol>
+<p>In order to make better use of the space in the OBS canvas, I also
+adjusted the aspect ratio of my beamer slides to be a bit more square
+(12x10 worked will for me). This can be accomplished using the
+<code>beamerposter</code> package:</p>
+<pre><code>\usepackage[orientation=landscape,size=custom,width=10,scale=0.5,debug]{beamerposter}
+</code></pre><h2 id="video-input-from-tablet">Video input from tablet</h2>
+<p>The biggest challenge of all this was finding a way to mirror my iPad&rsquo;s
+display to my desktop so OBS could use it. If you have a relatively
+recent Mac, this is easy since recent Macs and iPads by default support
+a system called <a href="https://support.apple.com/en-us/HT210380">Sidecar</a> that
+allows you to use your iPad as a second screen (with touch support) for
+your Mac.</p>
+<p>Since my main desktop isn&rsquo;t a Mac, I settled on using Apple&rsquo;s
+<a href="https://www.apple.com/airplay/">Airplay</a> protocol to wirelessly mirror
+my iPad display to my desktop; however, this isn&rsquo;t supported by default
+(Airplay is meant to mirror to a device like an AppleTV). Fortunately,
+with appropriate software, a regular computer can become an Airplay
+receiver. On Linux, this can be accomplished with an open source tool
+called <a href="https://github.com/antimof/UxPlay">UxPlay</a>. I know similar
+software exists for Windows, but all options I saw were paid software,
+so I&rsquo;m hesitant to recommend one in particular without trying them
+first.</p>
+<h1 id="zoom-setup">Zoom setup</h1>
+<p>Finally, we just need to get everything into Zoom. There&rsquo;s two ways to
+do this, each with it&rsquo;s own advantages.</p>
+<h2 id="webcam">Webcam</h2>
+<p>The most straightforward method is to simply use the OBS virtual cam
+extension (link above). Within Zoom, I&rsquo;d recommend specifically
+&ldquo;spotlighting&rdquo; your camera so the view doesn&rsquo;t switch to another
+person&rsquo;s camera when they speak.</p>
+<p>The main issue I had with this method is that Zoom&rsquo;s compression can
+make the slide text difficult to read at times unless the internet
+connection for everyone is absolutely perfect.</p>
+<p>This method also has the advantage that it&rsquo;s likely to work with other
+software such as Skype or Blackboard Collaborate.</p>
+<h2 id="screen-sharing">Screen sharing</h2>
+<p>I eventually settled on using the Screen Share feature with the
+&ldquo;optimize for video&rdquo; setting enabled.</p>
+<p>First, I create a window with the OBS canvas output
+(right click on the OBS canvas -&gt; Fullscreen projector). I then share
+this window with Zoom. Once screen sharing, I then disable my webcam in
+zoom to avoid duplicate images.</p>
+<p>This method <em>mostly</em> fixes the blurry text issue. Unfortunately, the
+video feed can lag the audio a bit which can be distracting for
+the viewers. This lag is somewhat unpredictable; in one of my practice
+talks it was apparently up to second, and in my final department talk it
+wasn&rsquo;t much of an issue at all. Your mileage may vary.</p>
+<p>I haven&rsquo;t tested this method with non-Zoom conference software, but I
+wouldn&rsquo;t expect it to work well there. It seems like most software uses
+a compression optimized for relatively static scenes for screen sharing,
+so movement would likely appear very choppy to viewers. It only works in
+Zoom because of Zoom&rsquo;s &ldquo;optimize for video option&rdquo; for screen sharing.</p>
+<h1 id="the-final-result">The final result</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+
+
+  <a data-fancybox="" href="examplescene.gif" data-caption="The final result">
+<img src="examplescene.gif" alt="" ></a>
+
+
+  
+  
+  <figcaption>
+    The final result
+  </figcaption>
+
+
+</figure>
+
+<p>Overall, the whole setup is a bit of a house of cards, but it mostly
+replicated what I felt were the most important aspects of in-person
+talks.</p>
+<p>Although I haven&rsquo;t had a chance to use this for teaching yet, I expect
+things would work similarly well, either using a note-taking app on the
+iPad for a pure &ldquo;chalk-and-talk&rdquo; sort of lecture or using a hybrid
+approach mixing slides with handwriting.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_huadb89bbecdae49a075d475aaac560a84_4843386_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.garygbaker.com/">Gary Baker</a></h5>
+      
+      <p class="card-text">I&rsquo;m an economic theory grad student at UW&ndash;Madison. I am currently (Fall 2020) on the job market.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/ggbaker" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" integrity="sha256-vOIuDSYDirTfyr+S2MjFnhOz6Rgiz4ODFAHATG0rFxw=" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.368ad8701ddf69c34950016f6435139b.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+<p class="powered-by">
+    © 2020 Gary Baker &middot; 
+    
+    <a href="/colophon/">Colophon</a>
+    
+
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

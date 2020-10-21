@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.garygbaker.com/authors/admin/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/authors/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/post/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.garygbaker.com/post/presentations/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.garygbaker.com/publication/info-consumer-theory/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
   </url>
@@ -14,11 +39,6 @@
   
   <url>
     <loc>https://www.garygbaker.com/tags/decision-theory/</loc>
-    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.garygbaker.com/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,23 +88,11 @@
   </url>
   
   <url>
-    <loc>https://www.garygbaker.com/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.garygbaker.com/authors/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.garygbaker.com/categories/</loc>
   </url>
   
   <url>
     <loc>https://www.garygbaker.com/colophon/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.garygbaker.com/post/</loc>
   </url>
   
   <url>

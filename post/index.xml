@@ -5,12 +5,327 @@
     <link>https://www.garygbaker.com/post/</link>
       <atom:link href="https://www.garygbaker.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.garygbaker.com/img/icon-32.png</url>
       <title>Posts</title>
       <link>https://www.garygbaker.com/post/</link>
     </image>
+    
+    <item>
+      <title>Remote teaching and seminars with OBS</title>
+      <link>https://www.garygbaker.com/post/presentations/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.garygbaker.com/post/presentations/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;featured.png&#34; data-caption=&#34;A scene from my department job talk&#34;&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A scene from my department job talk
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;
+&lt;p&gt;Like most grad students entering the job market this year, I&amp;rsquo;ve had to
+wrestle with the transition to giving talks remotely. Personally, I have
+some trouble focusing on virtual seminars since the format tends to be
+fairly static: mostly still slides with perhaps a camera window to the
+side. To avoid this, I&amp;rsquo;ve spent a fair amount of time (&lt;em&gt;read&lt;/em&gt;:
+procrastinating) trying to put together a setup that allows me to move
+around and interact with my materials a bit more. Below, I outline an
+approach that&amp;rsquo;s worked reasonably well for me.&lt;/p&gt;
+&lt;p&gt;Since I&amp;rsquo;m not teaching this semester, I&amp;rsquo;ve mostly focused on how to
+adapt an academic seminar to a remote setting, but I would use a
+variation of this for remote teaching given the opportunity.&lt;/p&gt;
+&lt;p&gt;I set out to replicate three particular aspects of in-person
+seminars/teaching:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The ability to easily handwrite equations/graphs on a blackboard,&lt;/li&gt;
+&lt;li&gt;The ability to draw attention to certain parts of a slide or
+blackboard, whether by laser pointer or physically pointing, and&lt;/li&gt;
+&lt;li&gt;The ability to move and gesture while speaking.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For all of this, I&amp;rsquo;m indebted to the work of others who took time
+to experiment with different methods for remote teaching/seminars and
+create guides. In particular,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Luke Stein&amp;rsquo;s YouTube series: &lt;a href=&#34;https://www.youtube.com/watch?v=upTyHsxdlYs&amp;amp;list=PLEPYFCNANvR_ZFZVPp-y_-eo5-AlOK_0Z&#34;&gt;OBS for teaching tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;David J. Malan&amp;rsquo;s post: &lt;a href=&#34;https://medium.com/@cs50/teaching-from-home-via-zoom-c3b336446fbc&#34;&gt;Teaching from Home via
+Zoom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A variety of twitter posts by Emily Nix, for example,
+&lt;a href=&#34;https://twitter.com/EmilyNix100/status/1297261177060302849?s=20&#34;&gt;here&lt;/a&gt;
+and &lt;a href=&#34;https://twitter.com/EmilyNix100/status/1294068665655025664?s=20&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;hardware&#34;&gt;Hardware&lt;/h1&gt;
+&lt;h2 id=&#34;needed-harware&#34;&gt;Needed harware:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A computer (obviously): a relatively recent Mac would work best, but
+isn&amp;rsquo;t required (My main desktop runs Linux)&lt;/li&gt;
+&lt;li&gt;A good camera&lt;/li&gt;
+&lt;li&gt;A tablet with stylus (iPad with Apple Pencil)&lt;/li&gt;
+&lt;li&gt;A second monitor is a big plus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I can&amp;rsquo;t overstate the importance of a good camera. If you
+have a reasonably modern digital camera, there&amp;rsquo;s a good chance it can
+send a video feed over usb to a computer. I use a Nikon D5500 that I
+normally use for bird photography, but you almost certainly have a
+pretty good webcam already available to you: a smart phone. Prior to
+rigging up my Nikon, I simply used my smartphone on a cheap gooseneck
+clamp using a free app called
+&lt;a href=&#34;https://www.dev47apps.com/&#34;&gt;Droidcam&lt;/a&gt;. A wider angle lens is a big plus
+here to give yourself more room to move around without having to stand
+too far back.&lt;/p&gt;
+&lt;p&gt;Even with a good camera, you need to be extremely well lit to get a good
+image (and to get a good green screen effect). I use three lamps each
+with some cheap 1500 lumen LED bulbs.&lt;/p&gt;
+&lt;p&gt;For the microphone, so long as you don&amp;rsquo;t use your laptop&amp;rsquo;s built in-mic,
+I don&amp;rsquo;t think the microphone is that important. The inline mic in most
+earbuds works reasonably well, but it might be worth spending a little
+bit on the mic. I use a Blue Yeti which works well enough (as a
+condenser mic, it works reasonably well even sitting a bit back from
+it), but if I had to do it again, I probably would have gotten a cheap
+lav mic.&lt;/p&gt;
+&lt;p&gt;Of course, to put yourself in the same scene with slides, there&amp;rsquo;s not
+much substitute for a proper green screen. I got a cheap one on Amazon
+for under $20, but be aware that the cheap screens come folded and need
+steam-ironing to remove the creases. Ideally, you&amp;rsquo;ll have a wall behind
+you to mount it, but otherwise you&amp;rsquo;ll need some kind of stand (which
+will add some expense).&lt;/p&gt;
+&lt;p&gt;Lastly, you&amp;rsquo;ll need some way to write easily. For me, that means an iPad
+with the Apple Pencil. You will also need some way to get the video feed
+from the tablet into your computer.&lt;/p&gt;
+&lt;p&gt;Finally, it&amp;rsquo;s extremely useful (though not necessary) to have at least
+one extra monitor so you can have the chat window and participants&amp;rsquo;
+videos visible separately.&lt;/p&gt;
+&lt;h2 id=&#34;room-setup&#34;&gt;Room setup&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;messydesk.jpg&#34; data-caption=&#34;A very messy desk set up for presenting&#34;&gt;
+&lt;img src=&#34;messydesk.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    A very messy desk set up for presenting
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;I sit on a bar stool about 2 meters back from my camera in the left
+third of the camera&amp;rsquo;s field of view. This most of the camera&amp;rsquo;s field of
+view as empty green screen that I can fill with the slides and gesture
+over in software. In the image below showing the OBS setup, the red box
+is the extent of the area I can gesture in.&lt;/p&gt;
+&lt;p&gt;Since I&amp;rsquo;m sitting so far back from my desk, I also use a small table for
+my iPad, and I adjust my microphone to be as close as possible.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;roomsetup.jpg&#34; data-caption=&#34;Where I sit&#34;&gt;
+&lt;img src=&#34;roomsetup.jpg&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Where I sit
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
+&lt;h2 id=&#34;needed-software&#34;&gt;Needed software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsproject.com/&#34;&gt;OBS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Virtual Cam Extension for OBS
+(&lt;a href=&#34;https://obsproject.com/forum/resources/obs-virtualcam.949/&#34;&gt;Windows&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/johnboiles/obs-mac-virtualcam&#34;&gt;Mac&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/CatxFish/obs-v4l2sink&#34;&gt;Linux&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;PDF software of choice on for the tablet (I use &lt;a href=&#34;https://readdle.com/documents&#34;&gt;Readdle
+Documents&lt;/a&gt; on the iPad)&lt;/li&gt;
+&lt;li&gt;Some way to get the video feed from the tablet to the computer (see below)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;obs-setup&#34;&gt;OBS setup&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;obs.png&#34; data-caption=&#34;OBS Scene arrangement&#34;&gt;
+&lt;img src=&#34;obs.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    OBS Scene arrangement
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Since many others have given excellent tutorials on how to use OBS (see
+Luke Stein&amp;rsquo;s tutorial linked above), I will assume some familiarity with it.&lt;/p&gt;
+&lt;p&gt;My primary scene in OBS has three sources:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Webcam input, with Chroma Key (green screen) filter applied, and with
+the image reflected (so I can more easily see where I&amp;rsquo;m &amp;ldquo;pointing&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Flat color as a background (black worked best for me)&lt;/li&gt;
+&lt;li&gt;Video input from my iPad (see below)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In order to make better use of the space in the OBS canvas, I also
+adjusted the aspect ratio of my beamer slides to be a bit more square
+(12x10 worked will for me). This can be accomplished using the
+&lt;code&gt;beamerposter&lt;/code&gt; package:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;\usepackage[orientation=landscape,size=custom,width=10,scale=0.5,debug]{beamerposter}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;video-input-from-tablet&#34;&gt;Video input from tablet&lt;/h2&gt;
+&lt;p&gt;The biggest challenge of all this was finding a way to mirror my iPad&amp;rsquo;s
+display to my desktop so OBS could use it. If you have a relatively
+recent Mac, this is easy since recent Macs and iPads by default support
+a system called &lt;a href=&#34;https://support.apple.com/en-us/HT210380&#34;&gt;Sidecar&lt;/a&gt; that
+allows you to use your iPad as a second screen (with touch support) for
+your Mac.&lt;/p&gt;
+&lt;p&gt;Since my main desktop isn&amp;rsquo;t a Mac, I settled on using Apple&amp;rsquo;s
+&lt;a href=&#34;https://www.apple.com/airplay/&#34;&gt;Airplay&lt;/a&gt; protocol to wirelessly mirror
+my iPad display to my desktop; however, this isn&amp;rsquo;t supported by default
+(Airplay is meant to mirror to a device like an AppleTV). Fortunately,
+with appropriate software, a regular computer can become an Airplay
+receiver. On Linux, this can be accomplished with an open source tool
+called &lt;a href=&#34;https://github.com/antimof/UxPlay&#34;&gt;UxPlay&lt;/a&gt;. I know similar
+software exists for Windows, but all options I saw were paid software,
+so I&amp;rsquo;m hesitant to recommend one in particular without trying them
+first.&lt;/p&gt;
+&lt;h1 id=&#34;zoom-setup&#34;&gt;Zoom setup&lt;/h1&gt;
+&lt;p&gt;Finally, we just need to get everything into Zoom. There&amp;rsquo;s two ways to
+do this, each with it&amp;rsquo;s own advantages.&lt;/p&gt;
+&lt;h2 id=&#34;webcam&#34;&gt;Webcam&lt;/h2&gt;
+&lt;p&gt;The most straightforward method is to simply use the OBS virtual cam
+extension (link above). Within Zoom, I&amp;rsquo;d recommend specifically
+&amp;ldquo;spotlighting&amp;rdquo; your camera so the view doesn&amp;rsquo;t switch to another
+person&amp;rsquo;s camera when they speak.&lt;/p&gt;
+&lt;p&gt;The main issue I had with this method is that Zoom&amp;rsquo;s compression can
+make the slide text difficult to read at times unless the internet
+connection for everyone is absolutely perfect.&lt;/p&gt;
+&lt;p&gt;This method also has the advantage that it&amp;rsquo;s likely to work with other
+software such as Skype or Blackboard Collaborate.&lt;/p&gt;
+&lt;h2 id=&#34;screen-sharing&#34;&gt;Screen sharing&lt;/h2&gt;
+&lt;p&gt;I eventually settled on using the Screen Share feature with the
+&amp;ldquo;optimize for video&amp;rdquo; setting enabled.&lt;/p&gt;
+&lt;p&gt;First, I create a window with the OBS canvas output
+(right click on the OBS canvas -&amp;gt; Fullscreen projector). I then share
+this window with Zoom. Once screen sharing, I then disable my webcam in
+zoom to avoid duplicate images.&lt;/p&gt;
+&lt;p&gt;This method &lt;em&gt;mostly&lt;/em&gt; fixes the blurry text issue. Unfortunately, the
+video feed can lag the audio a bit which can be distracting for
+the viewers. This lag is somewhat unpredictable; in one of my practice
+talks it was apparently up to second, and in my final department talk it
+wasn&amp;rsquo;t much of an issue at all. Your mileage may vary.&lt;/p&gt;
+&lt;p&gt;I haven&amp;rsquo;t tested this method with non-Zoom conference software, but I
+wouldn&amp;rsquo;t expect it to work well there. It seems like most software uses
+a compression optimized for relatively static scenes for screen sharing,
+so movement would likely appear very choppy to viewers. It only works in
+Zoom because of Zoom&amp;rsquo;s &amp;ldquo;optimize for video option&amp;rdquo; for screen sharing.&lt;/p&gt;
+&lt;h1 id=&#34;the-final-result&#34;&gt;The final result&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;examplescene.gif&#34; data-caption=&#34;The final result&#34;&gt;
+&lt;img src=&#34;examplescene.gif&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    The final result
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Overall, the whole setup is a bit of a house of cards, but it mostly
+replicated what I felt were the most important aspects of in-person
+talks.&lt;/p&gt;
+&lt;p&gt;Although I haven&amp;rsquo;t had a chance to use this for teaching yet, I expect
+things would work similarly well, either using a note-taking app on the
+iPad for a pure &amp;ldquo;chalk-and-talk&amp;rdquo; sort of lecture or using a hybrid
+approach mixing slides with handwriting.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
