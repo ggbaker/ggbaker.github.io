@@ -149,7 +149,7 @@ videos visible separately.&lt;/p&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I sit on a bar stool about 2 meters back from my camera in the left
-third of the camera&amp;rsquo;s field of view. This most of the camera&amp;rsquo;s field of
+third of the camera&amp;rsquo;s field of view. This leaves most of the camera&amp;rsquo;s field of
 view as empty green screen that I can fill with the slides and gesture
 over in software. In the image below showing the OBS setup, the red box
 is the extent of the area I can gesture in.&lt;/p&gt;
@@ -239,7 +239,7 @@ the image reflected (so I can more easily see where I&amp;rsquo;m &amp;ldquo;poi
 adjusted the aspect ratio of my beamer slides to be a bit more square
 (12x10 worked will for me). This can be accomplished using the
 &lt;code&gt;beamerposter&lt;/code&gt; package:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;\usepackage[orientation=landscape,size=custom,width=10,scale=0.5,debug]{beamerposter}
+&lt;pre&gt;&lt;code&gt;\usepackage[orientation=landscape,size=custom,width=12,height=10,scale=0.5,debug]{beamerposter}
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;video-input-from-tablet&#34;&gt;Video input from tablet&lt;/h2&gt;
 &lt;p&gt;The biggest challenge of all this was finding a way to mirror my iPad&amp;rsquo;s
 display to my desktop so OBS could use it. If you have a relatively
@@ -265,6 +265,9 @@ do this, each with it&amp;rsquo;s own advantages.&lt;/p&gt;
 extension (link above). Within Zoom, I&amp;rsquo;d recommend specifically
 &amp;ldquo;spotlighting&amp;rdquo; your camera so the view doesn&amp;rsquo;t switch to another
 person&amp;rsquo;s camera when they speak.&lt;/p&gt;
+&lt;p&gt;Besides simplicity, this method is pretty much sure to work even if
+you&amp;rsquo;re not using Zoom (say Skype or Blackboard)&amp;mdash;so long as whatever
+system you&amp;rsquo;re using supports a webcam.&lt;/p&gt;
 &lt;p&gt;The main issue I had with this method is that Zoom&amp;rsquo;s compression can
 make the slide text difficult to read at times unless the internet
 connection for everyone is absolutely perfect.&lt;/p&gt;

@@ -653,7 +653,7 @@ videos visible separately.</p>
 </figure>
 
 <p>I sit on a bar stool about 2 meters back from my camera in the left
-third of the camera&rsquo;s field of view. This most of the camera&rsquo;s field of
+third of the camera&rsquo;s field of view. This leaves most of the camera&rsquo;s field of
 view as empty green screen that I can fill with the slides and gesture
 over in software. In the image below showing the OBS setup, the red box
 is the extent of the area I can gesture in.</p>
@@ -743,7 +743,7 @@ the image reflected (so I can more easily see where I&rsquo;m &ldquo;pointing&rd
 adjusted the aspect ratio of my beamer slides to be a bit more square
 (12x10 worked will for me). This can be accomplished using the
 <code>beamerposter</code> package:</p>
-<pre><code>\usepackage[orientation=landscape,size=custom,width=10,scale=0.5,debug]{beamerposter}
+<pre><code>\usepackage[orientation=landscape,size=custom,width=12,height=10,scale=0.5,debug]{beamerposter}
 </code></pre><h2 id="video-input-from-tablet">Video input from tablet</h2>
 <p>The biggest challenge of all this was finding a way to mirror my iPad&rsquo;s
 display to my desktop so OBS could use it. If you have a relatively
@@ -769,6 +769,9 @@ do this, each with it&rsquo;s own advantages.</p>
 extension (link above). Within Zoom, I&rsquo;d recommend specifically
 &ldquo;spotlighting&rdquo; your camera so the view doesn&rsquo;t switch to another
 person&rsquo;s camera when they speak.</p>
+<p>Besides simplicity, this method is pretty much sure to work even if
+you&rsquo;re not using Zoom (say Skype or Blackboard)&mdash;so long as whatever
+system you&rsquo;re using supports a webcam.</p>
 <p>The main issue I had with this method is that Zoom&rsquo;s compression can
 make the slide text difficult to read at times unless the internet
 connection for everyone is absolutely perfect.</p>
