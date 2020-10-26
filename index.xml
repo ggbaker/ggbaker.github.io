@@ -5,12 +5,28 @@
     <link>https://www.garygbaker.com/</link>
       <atom:link href="https://www.garygbaker.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Gary Baker</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Gary Baker</copyright><lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.garygbaker.com/img/icon-32.png</url>
       <title>Gary Baker</title>
       <link>https://www.garygbaker.com/</link>
     </image>
+    
+    <item>
+      <title>Consumer theory for cheap information</title>
+      <link>https://www.garygbaker.com/publication/info-consumer-theory/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.garygbaker.com/publication/info-consumer-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian foundations for an asymptotically optimal experiment design (with Samuel Engle)</title>
+      <link>https://www.garygbaker.com/publication/experiment-design/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.garygbaker.com/publication/experiment-design/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Remote teaching and seminars with OBS</title>
@@ -350,11 +366,15 @@ switch to that in about a minute.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Consumer theory for cheap information</title>
-      <link>https://www.garygbaker.com/publication/info-consumer-theory/</link>
+      <title>Additional research projects</title>
+      <link>https://www.garygbaker.com/publication/in-progress/</link>
       <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.garygbaker.com/publication/info-consumer-theory/</guid>
-      <description></description>
+      <guid>https://www.garygbaker.com/publication/in-progress/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Bayesian foundations for an asymptotically optimal experiment design,&lt;/em&gt;
+with Sam Engle&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimal fast experimentation,&lt;/em&gt; with Lones Smith&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Bargaining with multiple buyers: evidence from eBay&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -933,18 +953,6 @@ ax&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;plot(n1pointstrue, n2p
 Relative info-gap:  0.011011
 ------------------  --------
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>In progress research</title>
-      <link>https://www.garygbaker.com/publication/in-progress/</link>
-      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.garygbaker.com/publication/in-progress/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Bayesian foundations for an asymptotically optimal experiment design,&lt;/em&gt;
-with Sam Engle&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Optimal fast experimentation,&lt;/em&gt; with Lones Smith&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Bargaining with multiple buyers: evidence from eBay&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
